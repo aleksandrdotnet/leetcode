@@ -30,7 +30,8 @@ public class Solution
                     new Triangle { Id = 1, X = 13, Y = 15, Z = 30 },
                     new Triangle { Id = 2, X = 10, Y = 20, Z = 15 },
                     new Triangle { Id = 3, X = 90, Y = 20, Z = 15 },
-                    new Triangle { Id = 4, X = 40, Y = 20, Z = 15 }
+                    new Triangle { Id = 4, X = 40, Y = 20, Z = 15 },
+                    new Triangle { Id = 5, X = 140, Y = 20, Z = 15 }
                 );
             });
         }
