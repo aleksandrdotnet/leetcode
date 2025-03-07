@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
 
-namespace RunningSumOf1dArray;
+namespace _1480_Running_Sum_Of_1d_Array;
 
 public class Test
 {

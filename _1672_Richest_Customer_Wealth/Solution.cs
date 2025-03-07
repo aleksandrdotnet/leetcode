@@ -1,4 +1,4 @@
-namespace RichestCustomerWealth;
+namespace _1672_Richest_Customer_Wealth;
 
 public static class Solution
 {
@@ -9,7 +9,7 @@ public static class Solution
         for (var i = 1; i < input.Length; i++)
         {
             var calcMax = input[i].Sum();
-            if(calcMax > max)
+            if (calcMax > max)
                 max = calcMax;
         }
 

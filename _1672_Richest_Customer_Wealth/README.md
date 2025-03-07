@@ -1,7 +1,7 @@
 # 1672. Richest Customer Wealth
 
 ![Complexity](https://img.shields.io/badge/easy-green)
-![Topics](https://img.shields.io/badge/array-blue)
+![sdsd](https://img.shields.io/badge/array-blue)
 ![Topics](https://img.shields.io/badge/matrix-blue)
 ![Topics](https://img.shields.io/badge/done-purple)
 
@@ -11,6 +11,9 @@ Return the **wealth** that the richest customer has.
 
 A customer's **wealth** is the amount of money they have in all their bank accounts. The richest customer is the
 customer that has the maximum **wealth**.
+
+## Picture
+![1672_Richest_Customer_Wealth](Resources/_1672_Richest_Customer_Wealth.png)
 
 ## Example 1
 
@@ -42,3 +45,20 @@ customer that has the maximum **wealth**.
 > `n == accounts[i].length`.  
 > `1 <= m, n <= 50`.  
 > `1 <= accounts[i][j] <= 100`. 
+
+## Code
+```csharp
+public static int Run(int[][] input)
+{
+    var max = input[0].Sum();
+
+    for (var i = 1; i < input.Length; i++)
+    {
+        var calcMax = input[i].Sum();
+        if (calcMax > max)
+            max = calcMax;
+    }
+
+    return max;
+}
+```

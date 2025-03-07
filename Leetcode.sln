@@ -1,12 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1480-Running-Sum-of-1d-Array", "1480-Running-Sum-of-1d-Array", "{3D733883-454D-4657-AA02-DCB9FDDFDB99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1480_Running_Sum_Of_1d_Array", "_1480_Running_Sum_Of_1d_Array\_1480_Running_Sum_Of_1d_Array.csproj", "{08E826E7-9E00-4091-A571-1B57650D6BA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningSumOf1dArray", "RunningSumOf1dArray\RunningSumOf1dArray.csproj", "{08E826E7-9E00-4091-A571-1B57650D6BA6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1672_Richest_Customer_Wealth", "_1672_Richest_Customer_Wealth\_1672_Richest_Customer_Wealth.csproj", "{BC012BF2-2969-4674-B150-FD6A15F62AAA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1672-Richest-Customer-Wealth", "1672-Richest-Customer-Wealth", "{524A6CA2-AE86-4B3C-A34F-52413D33A456}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichestCustomerWealth", "RichestCustomerWealth\RichestCustomerWealth.csproj", "{BC012BF2-2969-4674-B150-FD6A15F62AAA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{97CB26CE-DDFE-4C5D-8A55-6527007F4F4A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,7 +25,5 @@ Global
 		{BC012BF2-2969-4674-B150-FD6A15F62AAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{08E826E7-9E00-4091-A571-1B57650D6BA6} = {3D733883-454D-4657-AA02-DCB9FDDFDB99}
-		{BC012BF2-2969-4674-B150-FD6A15F62AAA} = {524A6CA2-AE86-4B3C-A34F-52413D33A456}
 	EndGlobalSection
 EndGlobal

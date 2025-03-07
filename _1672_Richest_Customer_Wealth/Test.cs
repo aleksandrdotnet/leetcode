@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
 
-namespace RichestCustomerWealth;
+namespace _1672_Richest_Customer_Wealth;
 
 public class Test
 {
@@ -23,7 +23,8 @@ public class Test
         ];
     }
 
-    [Theory, MemberData(nameof(TestData))]
+    [Theory]
+    [MemberData(nameof(TestData))]
     public void Run(int[][] input, int output)
     {
         var result = Solution.Run(input);
