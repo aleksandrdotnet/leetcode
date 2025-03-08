@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{97CB26
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_412_Fizz_Buzz", "_412_Fizz_Buzz\_412_Fizz_Buzz.csproj", "{E2DAFFAD-371E-4162-B600-2C51777722F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{BC012BF2-2969-4674-B150-FD6A15F62AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC012BF2-2969-4674-B150-FD6A15F62AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC012BF2-2969-4674-B150-FD6A15F62AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DAFFAD-371E-4162-B600-2C51777722F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DAFFAD-371E-4162-B600-2C51777722F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DAFFAD-371E-4162-B600-2C51777722F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DAFFAD-371E-4162-B600-2C51777722F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
