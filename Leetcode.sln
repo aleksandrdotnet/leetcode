@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{97CB26
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_412_Fizz_Buzz", "_412_Fizz_Buzz\_412_Fizz_Buzz.csproj", "{E2DAFFAD-371E-4162-B600-2C51777722F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1342_Number_Of_Steps_To_Reduce_A_Number_To_Zero", "_1342_Number_Of_Steps_To_Reduce_A_Number_To_Zero\_1342_Number_Of_Steps_To_Reduce_A_Number_To_Zero.csproj", "{63E3D535-3649-4834-9895-788BA0274B31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{E2DAFFAD-371E-4162-B600-2C51777722F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2DAFFAD-371E-4162-B600-2C51777722F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2DAFFAD-371E-4162-B600-2C51777722F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E3D535-3649-4834-9895-788BA0274B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E3D535-3649-4834-9895-788BA0274B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E3D535-3649-4834-9895-788BA0274B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E3D535-3649-4834-9895-788BA0274B31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
