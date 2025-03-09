@@ -30,14 +30,22 @@ Given an integer `n`, return a string array `answer` (1-indexed) where:
 
 ## Code
 ```csharp
-public static int[] Run(int[] input)
+public static IList<string> Run(int input)
 {
-    var result = new int[input.Length];
-
-    result[0] = input[0];
-    for (var i = 1; i < input.Length; i++)
-        result[i] = result[i - 1] + input[i];
-
+    var result = new List<string>();
+    for (var i = 1; i <= input; i++)
+    {
+        if (i == 1)
+            result.Add((i).ToString());
+        else if (i % 5 == 0 && i % 3 == 0)
+            result.Add("FizzBuzz");
+        else if (i % 5 == 0)
+            result.Add("Buzz");
+        else if (i % 3 == 0)
+            result.Add("Fizz");
+        else
+            result.Add((i).ToString());
+    }
     return result;
 }
 ```
