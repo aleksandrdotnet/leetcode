@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_412_Fizz_Buzz", "_412_Fizz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1342_Number_Of_Steps_To_Reduce_A_Number_To_Zero", "_1342_Number_Of_Steps_To_Reduce_A_Number_To_Zero\_1342_Number_Of_Steps_To_Reduce_A_Number_To_Zero.csproj", "{63E3D535-3649-4834-9895-788BA0274B31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_876_Middle_Of_The_Linked_List", "_876_Middle_Of_The_Linked_List\_876_Middle_Of_The_Linked_List.csproj", "{15CF6104-B362-405E-9DD4-F2815EA51A06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{63E3D535-3649-4834-9895-788BA0274B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63E3D535-3649-4834-9895-788BA0274B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63E3D535-3649-4834-9895-788BA0274B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15CF6104-B362-405E-9DD4-F2815EA51A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CF6104-B362-405E-9DD4-F2815EA51A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CF6104-B362-405E-9DD4-F2815EA51A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CF6104-B362-405E-9DD4-F2815EA51A06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
