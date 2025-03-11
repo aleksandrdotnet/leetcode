@@ -13,6 +13,7 @@ A customer's **wealth** is the amount of money they have in all their bank accou
 customer that has the maximum **wealth**.
 
 ## Picture
+
 ![1672_Richest_Customer_Wealth](Resources/_1672_Richest_Customer_Wealth.png)
 
 ## Example 1
@@ -44,9 +45,10 @@ customer that has the maximum **wealth**.
 > `m == accounts.length`.  
 > `n == accounts[i].length`.  
 > `1 <= m, n <= 50`.  
-> `1 <= accounts[i][j] <= 100`. 
+> `1 <= accounts[i][j] <= 100`.
 
 ## Code
+
 ```csharp
 public static int Run(int[][] input)
 {

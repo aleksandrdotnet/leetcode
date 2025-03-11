@@ -32,6 +32,7 @@ Return the running sum of `nums`.
 > `-10^6 <= nums[i] <= 10^6`
 
 ## Code
+
 ```csharp
 public static int[] Run(int[] input)
 {

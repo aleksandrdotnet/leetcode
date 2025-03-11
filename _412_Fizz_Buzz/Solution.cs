@@ -7,9 +7,8 @@ public class Solution
         var result = new List<string>();
 
         for (var i = 1; i <= input; i++)
-        {
             if (i == 1)
-                result.Add((i).ToString());
+                result.Add(i.ToString());
             else if (i % 5 == 0 && i % 3 == 0)
                 result.Add("FizzBuzz");
             else if (i % 5 == 0)
@@ -17,8 +16,7 @@ public class Solution
             else if (i % 3 == 0)
                 result.Add("Fizz");
             else
-                result.Add((i).ToString());
-        }
+                result.Add(i.ToString());
 
         return result;
     }

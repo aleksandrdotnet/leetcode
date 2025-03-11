@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1342_Number_Of_Steps_To_Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_876_Middle_Of_The_Linked_List", "_876_Middle_Of_The_Linked_List\_876_Middle_Of_The_Linked_List.csproj", "{15CF6104-B362-405E-9DD4-F2815EA51A06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_443_String_Compression", "_443_String_Compression\_443_String_Compression.csproj", "{C5EED2E2-FEEC-442B-BF0E-5E5B1F79B77D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{15CF6104-B362-405E-9DD4-F2815EA51A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15CF6104-B362-405E-9DD4-F2815EA51A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15CF6104-B362-405E-9DD4-F2815EA51A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EED2E2-FEEC-442B-BF0E-5E5B1F79B77D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EED2E2-FEEC-442B-BF0E-5E5B1F79B77D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EED2E2-FEEC-442B-BF0E-5E5B1F79B77D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EED2E2-FEEC-442B-BF0E-5E5B1F79B77D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

@@ -5,9 +5,9 @@ public class Solution
     public static int Run(int input)
     {
         var result = 0;
-        while(input != 0)
+        while (input != 0)
         {
-            if(input % 2 == 0)
+            if (input % 2 == 0)
                 input /= 2;
             else
                 input--;

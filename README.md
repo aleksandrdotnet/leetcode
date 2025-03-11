@@ -1,5 +1,4 @@
-# C# LeetCoding Challenge 
-
+# C# LeetCoding Challenge
 
 | Tags                                                                                                                                                                                                                                                                     | Ticket                                                                                               |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
@@ -8,7 +7,4 @@
 | ![Complexity](https://img.shields.io/badge/easy-green) ![Topics](https://img.shields.io/badge/math-blue) ![Topics](https://img.shields.io/badge/string-blue) ![Topics](https://img.shields.io/badge/simulation-blue) ![Topics](https://img.shields.io/badge/done-purple) | [412. Fizz Buzz](_412_Fizz_Buzz)                                                                     |
 | ![Complexity](https://img.shields.io/badge/easy-green) ![Topics](https://img.shields.io/badge/math-blue) ![Topics](https://img.shields.io/badge/bit_manipulation-blue) ![Topics](https://img.shields.io/badge/done-purple)                                               | [1342. Number of Steps to Reduce a Number to Zero](_1342_Number_Of_Steps_To_Reduce_A_Number_To_Zero) |
 | ![Complexity](https://img.shields.io/badge/easy-green) ![Topics](https://img.shields.io/badge/linked_list-blue) ![Topics](https://img.shields.io/badge/two_pointers-blue) ![Topics](https://img.shields.io/badge/done-purple)                                            | [876. Middle of the Linked List](_876_Middle_Of_The_Linked_List)                                     |
-
-
-
-                                                                                                                                                                                                                                                                  |                                                                                                      |
+| ![Complexity](https://img.shields.io/badge/medium-yellow) ![Topics](https://img.shields.io/badge/string-blue) ![Topics](https://img.shields.io/badge/two_pointers-blue) ![Topics](https://img.shields.io/badge/inprogress-purple)                                        | [443. String Compression ](_443_String_Compression)                                                  |
