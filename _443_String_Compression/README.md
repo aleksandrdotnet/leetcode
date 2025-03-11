@@ -3,7 +3,7 @@
 ![Complexity](https://img.shields.io/badge/medium-yellow)
 ![Topics](https://img.shields.io/badge/string-blue)
 ![Topics](https://img.shields.io/badge/two_pointers-blue)
-![Topics](https://img.shields.io/badge/inprogress-purple)
+![Topics](https://img.shields.io/badge/done-purple)
 
 Given an array of characters `chars`, compress it using the following algorithm:
 
@@ -44,5 +44,28 @@ You must write an algorithm that uses only constant extra space.
 ## Code
 
 ```csharp
-// ToDo
+public static int Run(char[] input)
+{
+    var begin = 0;
+    var count = 0;
+    
+    while (begin < input.Length)
+    {
+        var group = 1;
+        
+        while (begin + group < input.Length && input[begin + group] == input[begin])
+            group++;
+
+        input[count++] = input[begin];
+        begin += group;
+        
+        if (group > 1)
+        {
+            foreach (var ch in group.ToString())
+                input[count++] = ch;
+        }
+    }
+
+    return count;
+}
 ```

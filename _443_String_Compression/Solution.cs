@@ -4,24 +4,23 @@ public class Solution
 {
     public static int Run(char[] input)
     {
-        var i = 0;
+        var begin = 0;
         var count = 0;
-        while (i < input.Length)
+        
+        while (begin < input.Length)
         {
-            var group = 0;
-            count++;
-            var item = input[i++];
+            var group = 1;
+            
+            while (begin + group < input.Length && input[begin + group] == input[begin])
+                group++;
 
-            while (i + group < input.Length && input[i + group] == item) group++;
-
+            input[count++] = input[begin];
+            begin += group;
+            
             if (group > 1)
             {
-                var str = group.ToString();
-                for (var k = 0; k < str.Length; k++)
-                    input[i + k] = str[k];
-
-                i += str.Length - 1;
-                count += str.Length - 1;
+                foreach (var ch in group.ToString())
+                    input[count++] = ch;
             }
         }
 
