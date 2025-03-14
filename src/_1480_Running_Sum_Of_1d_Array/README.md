@@ -3,7 +3,6 @@
 ![Complexity](https://img.shields.io/badge/easy-green)
 ![Topics](https://img.shields.io/badge/array-blue)
 ![Topics](https://img.shields.io/badge/prefix_sum-blue)
-![Topics](https://img.shields.io/badge/done-purple)
 
 Given an array `nums`. We define a running sum of an array as `runningSum[i] = sum(nums[0]…nums[i])`.
 

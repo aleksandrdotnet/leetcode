@@ -4,7 +4,6 @@
 ![Topics](https://img.shields.io/badge/math-blue)
 ![Topics](https://img.shields.io/badge/string-blue)
 ![Topics](https://img.shields.io/badge/simulation-blue)
-![Topics](https://img.shields.io/badge/done-purple)
 
 Given an integer `n`, return a string array `answer` (1-indexed) where:
 

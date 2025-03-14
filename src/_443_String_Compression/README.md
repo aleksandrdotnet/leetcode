@@ -3,7 +3,6 @@
 ![Complexity](https://img.shields.io/badge/medium-yellow)
 ![Topics](https://img.shields.io/badge/string-blue)
 ![Topics](https://img.shields.io/badge/two_pointers-blue)
-![Topics](https://img.shields.io/badge/done-purple)
 
 Given an array of characters `chars`, compress it using the following algorithm:
 

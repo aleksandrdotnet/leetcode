@@ -4,7 +4,6 @@
 ![Topics](https://img.shields.io/badge/hash_table-blue)
 ![Topics](https://img.shields.io/badge/string-blue)
 ![Topics](https://img.shields.io/badge/counting-blue)
-![Topics](https://img.shields.io/badge/in_progress-purple)
 
 Given two strings `ransomNote` and `magazine`, return `true` if `ransomNote` can be constructed by using the letters
 from `magazine` and false otherwise.
