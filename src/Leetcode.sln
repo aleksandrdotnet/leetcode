@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_9_Palindrome_Number", "_9_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3079_Find_the_Sum_of_Encrypted_Integers", "_3079_Find_the_Sum_of_Encrypted_Integers\_3079_Find_the_Sum_of_Encrypted_Integers.csproj", "{045956EC-C9F2-4A84-BE06-C7BEC5533CE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2114_Maximum_Number_of_Words_Found_in_Sentences", "_2114_Maximum_Number_of_Words_Found_in_Sentences\_2114_Maximum_Number_of_Words_Found_in_Sentences.csproj", "{18D9E3BC-3A35-49A3-B005-E2D4760E99B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{045956EC-C9F2-4A84-BE06-C7BEC5533CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{045956EC-C9F2-4A84-BE06-C7BEC5533CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{045956EC-C9F2-4A84-BE06-C7BEC5533CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D9E3BC-3A35-49A3-B005-E2D4760E99B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D9E3BC-3A35-49A3-B005-E2D4760E99B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D9E3BC-3A35-49A3-B005-E2D4760E99B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D9E3BC-3A35-49A3-B005-E2D4760E99B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
