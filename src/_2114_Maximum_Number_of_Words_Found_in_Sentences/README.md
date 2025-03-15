@@ -48,5 +48,5 @@ public int MostWordsFound(string[] sentences)
 
 ## Complexity
 
-> **Time complexity**: O(logn)  
+> **Time complexity**: O(n)  
 > **Space complexity**: O(1)
