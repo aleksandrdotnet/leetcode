@@ -3,6 +3,8 @@
 ![Complexity](https://img.shields.io/badge/easy-green)
 ![Topics](https://img.shields.io/badge/math-blue)
 
+[9. Palindrome Number](https://leetcode.com/problems/palindrome-number)
+
 Given an integer `x`, return true if `x` is a `palindrome`, and false otherwise.
 
 ## Example 1

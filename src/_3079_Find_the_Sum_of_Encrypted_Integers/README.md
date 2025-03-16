@@ -4,6 +4,8 @@
 ![Topics](https://img.shields.io/badge/array-blue)
 ![Topics](https://img.shields.io/badge/math-blue)
 
+[3079. Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/description/)
+
 You are given an integer array `nums` containing positive integers. We define a function `encrypt` such that `encrypt(x)` replaces every digit in `x` with the largest digit in `x`. For example, `encrypt(523) = 555` and `encrypt(213) = 333`.
 
 Return the sum of encrypted elements.

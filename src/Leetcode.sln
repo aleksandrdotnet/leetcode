@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3079_Find_the_Sum_of_Encry
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2114_Maximum_Number_of_Words_Found_in_Sentences", "_2114_Maximum_Number_of_Words_Found_in_Sentences\_2114_Maximum_Number_of_Words_Found_in_Sentences.csproj", "{18D9E3BC-3A35-49A3-B005-E2D4760E99B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2427_Number_of_Common_Factors", "_2427_Number_of_Common_Factors\_2427_Number_of_Common_Factors.csproj", "{00C11C28-3F35-437B-98AD-3698380F3550}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{18D9E3BC-3A35-49A3-B005-E2D4760E99B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18D9E3BC-3A35-49A3-B005-E2D4760E99B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18D9E3BC-3A35-49A3-B005-E2D4760E99B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C11C28-3F35-437B-98AD-3698380F3550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C11C28-3F35-437B-98AD-3698380F3550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C11C28-3F35-437B-98AD-3698380F3550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C11C28-3F35-437B-98AD-3698380F3550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
