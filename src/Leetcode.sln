@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2114_Maximum_Number_of_Wor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2427_Number_of_Common_Factors", "_2427_Number_of_Common_Factors\_2427_Number_of_Common_Factors.csproj", "{00C11C28-3F35-437B-98AD-3698380F3550}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2_Add_Two_Numbers", "_2_Add_Two_Numbers\_2_Add_Two_Numbers.csproj", "{C53630F6-AB25-4A71-9464-753CE07C9FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2206_Divide_Array_Into_Equal_Pairs", "_2206_Divide_Array_Into_Equal_Pairs\_2206_Divide_Array_Into_Equal_Pairs.csproj", "{093DA72C-F080-47D4-9F91-5EB11E543791}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,14 @@ Global
 		{00C11C28-3F35-437B-98AD-3698380F3550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00C11C28-3F35-437B-98AD-3698380F3550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00C11C28-3F35-437B-98AD-3698380F3550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53630F6-AB25-4A71-9464-753CE07C9FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53630F6-AB25-4A71-9464-753CE07C9FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53630F6-AB25-4A71-9464-753CE07C9FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53630F6-AB25-4A71-9464-753CE07C9FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093DA72C-F080-47D4-9F91-5EB11E543791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093DA72C-F080-47D4-9F91-5EB11E543791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093DA72C-F080-47D4-9F91-5EB11E543791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093DA72C-F080-47D4-9F91-5EB11E543791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
