@@ -34,9 +34,20 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 ## Code
 
 ```csharp
+public int RemoveDuplicates(int[] nums)
+{
+    if (nums.Length < 2) return nums.Length;
+
+    var j = 0;
+    for (var i = 0; i < nums.Length; i++)
+        if (nums[j] != nums[i])
+            nums[++j] = nums[i];
+
+    return j + 1;
+}
 ```
 
 ## Complexity
 
-> **Time complexity**: O(logn)  
-> **Space complexity**: O(logn)
+> **Time complexity**: O(n)  
+> **Space complexity**: O(1)
