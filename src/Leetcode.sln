@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2_Add_Two_Numbers", "_2_Ad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2206_Divide_Array_Into_Equal_Pairs", "_2206_Divide_Array_Into_Equal_Pairs\_2206_Divide_Array_Into_Equal_Pairs.csproj", "{093DA72C-F080-47D4-9F91-5EB11E543791}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_26_Remove_Duplicates_from_Sorted_Array", "_26_Remove_Duplicates_from_Sorted_Array\_26_Remove_Duplicates_from_Sorted_Array.csproj", "{C52FB74B-8BBC-4FAD-B2BD-07D36A708F29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,10 @@ Global
 		{093DA72C-F080-47D4-9F91-5EB11E543791}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{093DA72C-F080-47D4-9F91-5EB11E543791}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{093DA72C-F080-47D4-9F91-5EB11E543791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52FB74B-8BBC-4FAD-B2BD-07D36A708F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52FB74B-8BBC-4FAD-B2BD-07D36A708F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52FB74B-8BBC-4FAD-B2BD-07D36A708F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52FB74B-8BBC-4FAD-B2BD-07D36A708F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
