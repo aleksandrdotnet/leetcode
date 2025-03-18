@@ -10,10 +10,7 @@ public class Test
     public void Run(int[] input, int expected)
     {
         var result = new Solution().RemoveDuplicates(input);
-        for (var i = 1; i < result; i++)
-        {
-            Assert.True(input[i - 1] != input[i]);
-        }
+        for (var i = 1; i < result; i++) Assert.True(input[i - 1] != input[i]);
 
         Assert.Equal(expected, result);
     }
