@@ -31,5 +31,21 @@ Given an array `arr` of integers, check if there exist two indices `i` and `j` s
 
 ## Code
 ```csharp
-
+public bool CheckIfExist(int[] arr) 
+{
+    for (var i = 0; i < arr.Length; i++)
+    {
+        for(var j = i+1; j < arr.Length; j++)
+        {
+            if(arr[i] == 2 * arr[j] || arr[i] == arr[j]/2.0)
+                return true;
+        }
+    }
+    
+    return false;
+}
 ```
+
+## Complexity
+> **Time complexity**: O(n^2)  
+> **Space complexity**: O(1)
