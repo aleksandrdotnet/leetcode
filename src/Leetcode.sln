@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_27_Remove_Element", "_27_R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1346_Check_If_N_and_Its_Double_Exist", "_1346_Check_If_N_and_Its_Double_Exist\_1346_Check_If_N_and_Its_Double_Exist.csproj", "{C15CE962-D9A7-4B26-97EC-5700CF6208DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_941_Valid_Mountain_Array", "_941_Valid_Mountain_Array\_941_Valid_Mountain_Array.csproj", "{26D087D0-357B-4F79-8375-B027037B24D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_941_Valid_Mountain_Array_Benchmark", "_941_Valid_Mountain_Array_Benchmark\_941_Valid_Mountain_Array_Benchmark.csproj", "{8A0D55CF-D5EE-4F77-9864-E908C362A74F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +111,14 @@ Global
 		{C15CE962-D9A7-4B26-97EC-5700CF6208DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C15CE962-D9A7-4B26-97EC-5700CF6208DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C15CE962-D9A7-4B26-97EC-5700CF6208DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D087D0-357B-4F79-8375-B027037B24D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D087D0-357B-4F79-8375-B027037B24D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D087D0-357B-4F79-8375-B027037B24D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D087D0-357B-4F79-8375-B027037B24D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0D55CF-D5EE-4F77-9864-E908C362A74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0D55CF-D5EE-4F77-9864-E908C362A74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0D55CF-D5EE-4F77-9864-E908C362A74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0D55CF-D5EE-4F77-9864-E908C362A74F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
