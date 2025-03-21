@@ -53,7 +53,7 @@ public int[] ReplaceElements(int[] arr)
     return arr;
 }
 ```
-![Текст ссылки на видео](Resources/1299.gif)
+![1299. Replace Elements with Greatest Element on Right Side](Resources/1299.gif)
 
 ## Complexity
 > **Time complexity**: O(n)  
