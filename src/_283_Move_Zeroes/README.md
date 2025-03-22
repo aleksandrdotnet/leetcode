@@ -24,6 +24,18 @@ Note that you must do this in-place without making a copy of the array.
 
 ## Code
 ```csharp
+public void MoveZeroes(int[] nums)
+{
+    var writePointer = 0;
+    for(var readPointer = 0; readPointer < nums.Length; readPointer++)
+    {
+        if(nums[readPointer] != 0)
+        {
+            (nums[writePointer], nums[readPointer]) = (nums[readPointer], nums[writePointer]);
+            writePointer++;
+        }
+    }
+}
 ```
 
 ## Complexity
