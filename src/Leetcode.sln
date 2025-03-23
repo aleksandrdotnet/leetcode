@@ -49,7 +49,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_283_Move_Zeroes", "_283_Move_Zeroes\_283_Move_Zeroes.csproj", "{0772EC3A-86AB-4989-8311-4C129BEB66D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_905_Sort_Array_By_Parity", "_905_Sort_Array_By_Parity\_905_Sort_Array_By_Parity\_905_Sort_Array_By_Parity.csproj", "{0EA89948-A459-4D61-8654-C058AEB037FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_905_Sort_Array_By_Parity", "_905_Sort_Array_By_Parity\_905_Sort_Array_By_Parity.csproj", "{0EA89948-A459-4D61-8654-C058AEB037FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
