@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_283_Move_Zeroes", "_283_Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_905_Sort_Array_By_Parity", "_905_Sort_Array_By_Parity\_905_Sort_Array_By_Parity.csproj", "{0EA89948-A459-4D61-8654-C058AEB037FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1051_Height_Checker", "_1051_Height_Checker\_1051_Height_Checker.csproj", "{DECFAC04-1674-4A91-B4D5-51271C261BDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +147,10 @@ Global
 		{0EA89948-A459-4D61-8654-C058AEB037FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EA89948-A459-4D61-8654-C058AEB037FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EA89948-A459-4D61-8654-C058AEB037FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DECFAC04-1674-4A91-B4D5-51271C261BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DECFAC04-1674-4A91-B4D5-51271C261BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DECFAC04-1674-4A91-B4D5-51271C261BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DECFAC04-1674-4A91-B4D5-51271C261BDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
