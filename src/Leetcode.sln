@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_905_Sort_Array_By_Parity",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1051_Height_Checker", "_1051_Height_Checker\_1051_Height_Checker.csproj", "{DECFAC04-1674-4A91-B4D5-51271C261BDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_414_Third_Maximum_Number", "_414_Third_Maximum_Number\_414_Third_Maximum_Number.csproj", "{8F911EDB-906F-4514-B0DC-BD392F5BCCB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +153,10 @@ Global
 		{DECFAC04-1674-4A91-B4D5-51271C261BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DECFAC04-1674-4A91-B4D5-51271C261BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DECFAC04-1674-4A91-B4D5-51271C261BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F911EDB-906F-4514-B0DC-BD392F5BCCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F911EDB-906F-4514-B0DC-BD392F5BCCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F911EDB-906F-4514-B0DC-BD392F5BCCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F911EDB-906F-4514-B0DC-BD392F5BCCB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
