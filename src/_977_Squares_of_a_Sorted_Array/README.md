@@ -37,3 +37,10 @@ public int[] SortedSquares(int[] nums)
 ## Complexity
 > **Time complexity**: O(n)  
 > **Space complexity**: O(1)
+
+## Idea
+> `Think about Constraints and data`
+
+## Hint
+> `The sequence is increasing. first element > last element.`
+> `Use Math.Abs`
