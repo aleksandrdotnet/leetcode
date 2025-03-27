@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_414_Third_Maximum_Number",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_448_Find_All_Numbers_Disappeared_in_an_Array", "_448_Find_All_Numbers_Disappeared_in_an_Array\_448_Find_All_Numbers_Disappeared_in_an_Array.csproj", "{109E7E2F-5686-4DF9-9F15-1C1FF6297612}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_977_Squares_of_a_Sorted_Array", "_977_Squares_of_a_Sorted_Array\_977_Squares_of_a_Sorted_Array.csproj", "{9EBAF58C-4C79-48C3-9594-0496EDE4BE8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +165,10 @@ Global
 		{109E7E2F-5686-4DF9-9F15-1C1FF6297612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{109E7E2F-5686-4DF9-9F15-1C1FF6297612}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{109E7E2F-5686-4DF9-9F15-1C1FF6297612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EBAF58C-4C79-48C3-9594-0496EDE4BE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EBAF58C-4C79-48C3-9594-0496EDE4BE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EBAF58C-4C79-48C3-9594-0496EDE4BE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EBAF58C-4C79-48C3-9594-0496EDE4BE8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
