@@ -26,9 +26,14 @@ Given an integer array nums sorted in non-decreasing order, return an array of t
 
 ## Code
 ```csharp
-
+public int[] SortedSquares(int[] nums)
+{
+    var list = nums.Select(x => x * x).ToList();
+    list.Sort();
+    return list.ToArray();
+}
 ```
 
 ## Complexity
-> **Time complexity**: O()  
-> **Space complexity**: O()
+> **Time complexity**: O(n)  
+> **Space complexity**: O(1)
