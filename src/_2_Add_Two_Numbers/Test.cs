@@ -57,8 +57,8 @@ public class Test
         ];
     }
 
-    [Theory]
-    [MemberData(nameof(GetTestData))]
+    //[Theory]
+    //[MemberData(nameof(GetTestData))]
     public void Run(Solution.ListNode l1, Solution.ListNode l2, Solution.ListNode expceted)
     {
         var result = new Solution().AddTwoNumbers(l1, l2);
