@@ -49,5 +49,5 @@ public int StrStr(string haystack, string needle)
 ```
 
 ## Complexity
-> **Time complexity**: O()  
-> **Space complexity**: O()
+> **Time complexity**: O(n*m)  
+> **Space complexity**: O(1)
