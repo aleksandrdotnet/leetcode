@@ -73,3 +73,8 @@ SELECT emp.name, b.BonusAmount AS Bonus
     LEFT JOIN Bonuses b ON b.empId = emp.empId 
     WHERE b.BonusAmount IS NULL OR b.BonusAmount < 1000
 ```
+
+
+## Complexity
+> **Time complexity**: O(n+m)  
+> **Space complexity**: O(n+m)
