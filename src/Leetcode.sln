@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_13_Roman_to_Integer", "_13
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_28_Find_the_Index_of_the_First_Occurrence_in_a_String", "_28_Find_the_Index_of_the_First_Occurrence_in_a_String\_28_Find_the_Index_of_the_First_Occurrence_in_a_String.csproj", "{F2B35CF8-C1FE-45C2-8588-7BE674E8BE08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_577_Employee_Bonus", "_577_Employee_Bonus\_577_Employee_Bonus.csproj", "{4EE13048-5202-4FFE-BFDC-1DC364229F41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,10 @@ Global
 		{F2B35CF8-C1FE-45C2-8588-7BE674E8BE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2B35CF8-C1FE-45C2-8588-7BE674E8BE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2B35CF8-C1FE-45C2-8588-7BE674E8BE08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE13048-5202-4FFE-BFDC-1DC364229F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE13048-5202-4FFE-BFDC-1DC364229F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE13048-5202-4FFE-BFDC-1DC364229F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE13048-5202-4FFE-BFDC-1DC364229F41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
