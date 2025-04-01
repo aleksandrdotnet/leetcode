@@ -1,6 +1,6 @@
 # 75. Sort Colors 
 
-![Complexity](https://img.shields.io/badge/easy-green)
+![Complexity](https://img.shields.io/badge/medium-yellow)
 ![Topics](https://img.shields.io/badge/array-blue)
 ![Topics](https://img.shields.io/badge/two_pointers-blue)
 ![Topics](https://img.shields.io/badge/sorting-blue)
