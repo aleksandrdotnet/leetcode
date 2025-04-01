@@ -3,9 +3,9 @@
 public class Test
 {
     [Theory]
-    [InlineData("sadbutsad", "sad" , 0)]
-    [InlineData("leetcode", "leeto" , -1)]
-    [InlineData("aaaa", "aaa" , 0)]
+    [InlineData("sadbutsad", "sad", 0)]
+    [InlineData("leetcode", "leeto", -1)]
+    [InlineData("aaaa", "aaa", 0)]
     public void Run(string haystack, string needle, int expected)
     {
         var result = new Solution().StrStr(haystack, needle);

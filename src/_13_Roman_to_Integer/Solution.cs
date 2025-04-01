@@ -17,10 +17,10 @@ public class Solution
             { 'D', 500 },
             { 'M', 1000 }
         };
-        
-        if(s.Length == 1)
+
+        if (s.Length == 1)
             return dict[s[0]];
-        
+
         var result = dict[s[^1]];
         var prev = dict[s[^1]];
         for (var i = s.Length - 2; i >= 0; i--)
@@ -36,7 +36,7 @@ public class Solution
                 prev = current;
             }
         }
-        
+
         return result;
     }
 }

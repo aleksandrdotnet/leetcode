@@ -4,10 +4,10 @@ public class Solution
 {
     public int MostWordsFound(string[] sentences)
     {
-        int max = 0;
-        foreach(string item in sentences)
+        var max = 0;
+        foreach (var item in sentences)
             max = Math.Max(max, item.Split(' ').Count());
-        
+
         return max;
     }
 }

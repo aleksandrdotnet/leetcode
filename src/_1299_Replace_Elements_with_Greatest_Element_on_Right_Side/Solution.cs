@@ -17,18 +17,13 @@ public class Solution
             var init = maxIndex;
             var max = -1;
             for (var j = maxIndex + 1; j < arr.Length; j++)
-            {
                 if (max < arr[j])
                 {
                     max = arr[j];
                     maxIndex = j;
                 }
-            }
 
-            for (var j = init; j < maxIndex; j++)
-            {
-                result[j] = arr[maxIndex];
-            }
+            for (var j = init; j < maxIndex; j++) result[j] = arr[maxIndex];
         }
 
         return result;
@@ -41,17 +36,11 @@ public class Solution
         if (arr.Length == 2) return [arr[1], -1];
 
         var last = -1;
-        for (int i = arr.Length - 1; i >= 0; i--)
-        {
+        for (var i = arr.Length - 1; i >= 0; i--)
             if (arr[i] > last)
-            {
                 (arr[i], last) = (last, arr[i]);
-            }
             else
-            {
                 arr[i] = last;
-            }
-        }
 
         return arr;
     }

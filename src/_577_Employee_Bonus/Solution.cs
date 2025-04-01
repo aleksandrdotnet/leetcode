@@ -35,12 +35,13 @@ public class Solution
             );
         }
     }
-    
+
     public class Employee
     {
         public int EmpId { get; set; }
-        [StringLength(255)]
-        public required string Name { get; set; }
+
+        [StringLength(255)] public required string Name { get; set; }
+
         public int? Supervisor { get; set; }
         public int Salary { get; set; }
     }

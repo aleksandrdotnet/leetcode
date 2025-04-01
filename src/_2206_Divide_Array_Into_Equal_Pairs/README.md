@@ -15,6 +15,7 @@ The elements present in a pair are equal.
 Return `true` if nums can be divided into `n` pairs, otherwise return `false`.
 
 ## Example 1
+
 > **Input**: `nums = [3,2,3,2,2,2]`  
 > **Output**: `true`  
 > **Explanation**:
@@ -22,18 +23,20 @@ Return `true` if nums can be divided into `n` pairs, otherwise return `false`.
 > If nums is divided into the pairs (2, 2), (3, 3), and (2, 2), it will satisfy all the conditions.
 
 ## Example 2
+
 > **Input**: `nums = [1,2,3,4]`  
 > **Output**: `false`  
 > **Explanation**:
-There is no way to divide nums into 4 / 2 = 2 pairs such that the pairs satisfy every condition.
-
+> There is no way to divide nums into 4 / 2 = 2 pairs such that the pairs satisfy every condition.
 
 ## Constraints
-> -`nums.length == 2 * n`  
+
+> -`nums.length == 2 * n`
 > - `1 <= n <= 500`
 > - `1 <= nums[i] <= 500`
 
 ## Code
+
 ```csharp
 
 ```

@@ -13,18 +13,18 @@ public class Test
             new Solution.ListNode(5,
                 new Solution.ListNode(6,
                     new Solution.ListNode(4))),
-            
+
             new Solution.ListNode(7,
                 new Solution.ListNode(0,
                     new Solution.ListNode(8)))
         ];
-        
+
         yield return
         [
             new Solution.ListNode(),
 
             new Solution.ListNode(),
-            
+
             new Solution.ListNode()
         ];
 
@@ -53,7 +53,7 @@ public class Test
                                 new Solution.ListNode(0,
                                     new Solution.ListNode(0,
                                         new Solution.ListNode(1)
-                                        )))))))
+                                    )))))))
         ];
     }
 
@@ -67,7 +67,7 @@ public class Test
         while (check != null)
         {
             Assert.Equal(check.val, result.val);
-            
+
             check = check.next;
         }
     }

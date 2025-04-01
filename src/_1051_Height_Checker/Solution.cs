@@ -9,10 +9,8 @@ public class Solution
 
         var result = 0;
         for (var i = 0; i < expected.Length; i++)
-        {
             if (expected[i] != heights[i])
                 result++;
-        }
 
         return result;
     }

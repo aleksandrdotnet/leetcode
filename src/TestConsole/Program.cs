@@ -3,12 +3,9 @@
 static Table RenderTable(int[] array, int index)
 {
     var table = new Table();
-        
+
     // Добавляем столько колонок, сколько элементов в массиве
-    foreach (var _ in array)
-    {
-        table.AddColumn(new TableColumn(""));
-    }
+    foreach (var _ in array) table.AddColumn(new TableColumn(""));
 
     // Формируем строку, выделяя активный элемент
     var row = array.Select((v, i) => i == index ? $"[bold red]→ {v}[/]" : v.ToString()).ToArray();
@@ -19,7 +16,7 @@ static Table RenderTable(int[] array, int index)
 
 
 int[] array = { 1, 2, 3, 4, 5 };
-int index = 0;
+var index = 0;
 var random = new Random();
 
 AnsiConsole.Live(RenderTable(array, index))

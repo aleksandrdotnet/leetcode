@@ -5,10 +5,12 @@
 
 [1299. Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/)
 
-Given an array `arr`, replace every element in that array with the greatest element among the elements to its right, and replace the last element with `-1`.
+Given an array `arr`, replace every element in that array with the greatest element among the elements to its right, and
+replace the last element with `-1`.
 After doing so, return the array.
 
 ## Example 1
+
 > **Input**: `arr = [17,18,5,4,6,1]`  
 > **Output**: `[18,6,6,6,1,-1]`  
 > **Explanation**:
@@ -20,16 +22,18 @@ After doing so, return the array.
 > - index 5 --> there are no elements to the right of index 5, so we put -1.
 
 ## Example 2
+
 > **Input**: `arr = [400]`  
 > **Output**: `[-1]`  
 > **Explanation**: `There are no elements to the right of index 0.`
 
-
 ## Constraints
+
 > - `1 <= arr.length <= 10^4`
 > - `1 <= arr[i] <= 10^5`
 
 ## Code
+
 ```csharp
 public int[] ReplaceElements(int[] arr)
 {
@@ -53,9 +57,11 @@ public int[] ReplaceElements(int[] arr)
     return arr;
 }
 ```
+
 ![1299. Replace Elements with Greatest Element on Right Side](Resources/1299.gif)
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(1)
 

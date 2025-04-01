@@ -8,9 +8,6 @@ public class Test
     public void Run(int[] input, int expected)
     {
         var result = new Solution().SortArrayByParity(input);
-        for (var i = 0; i < expected; i++)
-        {
-            Assert.Equal(0, input[i] % 2);
-        }
+        for (var i = 0; i < expected; i++) Assert.Equal(0, input[i] % 2);
     }
 }

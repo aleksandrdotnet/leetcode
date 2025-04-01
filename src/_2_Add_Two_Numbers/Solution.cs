@@ -2,18 +2,6 @@ namespace _2_Add_Two_Numbers;
 
 public class Solution
 {
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     public ListNode AddTwoNumbers(ListNode? l1, ListNode? l2)
     {
         var l1ref = l1;
@@ -42,14 +30,26 @@ public class Solution
             {
                 if (l2ref?.next != null)
                     l2ref = l2ref.next;
-                
+
                 if (l1ref?.next != null)
                     l1ref = l1ref.next;
-                
+
                 r = r.next;
             }
         }
-        
+
         return result;
+    }
+
+    public class ListNode
+    {
+        public ListNode next;
+        public int val;
+
+        public ListNode(int val = 0, ListNode next = null)
+        {
+            this.val = val;
+            this.next = next;
+        }
     }
 }

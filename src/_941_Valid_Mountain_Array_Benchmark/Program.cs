@@ -1,25 +1,34 @@
 ﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
-using System.Collections.Generic;
+
+namespace _941_Valid_Mountain_Array_Benchmark;
 
 public class Solution
 {
-    [ParamsSource(nameof(TestArrays))]
-    public int[] arr;
+    [ParamsSource(nameof(TestArrays))] public int[] arr;
 
-    public static IEnumerable<int[]> TestArrays() => new[]
+    public static IEnumerable<int[]> TestArrays()
     {
-        new[] { 2, 1 },
-        new[] { 3, 5, 5 },
-        new[] { 0, 3, 2, 1 },
-        new[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 },
-    };
+        return new[]
+        {
+            new[] { 2, 1 },
+            new[] { 3, 5, 5 },
+            new[] { 0, 3, 2, 1 },
+            new[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 }
+        };
+    }
 
     [Benchmark]
-    public bool ValidMountainArray() => ValidMountainArrayMethod(arr);
+    public bool ValidMountainArray()
+    {
+        return ValidMountainArrayMethod(arr);
+    }
 
     [Benchmark]
-    public bool ValidMountainArray2() => ValidMountainArray2Method(arr);
+    public bool ValidMountainArray2()
+    {
+        return ValidMountainArray2Method(arr);
+    }
 
     public bool ValidMountainArrayMethod(int[] arr)
     {
@@ -75,9 +84,9 @@ public class Solution
     }
 }
 
-class Program
+internal class Program
 {
-    static void Main()
+    private static void Main()
     {
         BenchmarkRunner.Run<Solution>();
     }

@@ -16,7 +16,7 @@ public class Solution
         if (peak == 0 || peak == arr.Length - 1) return false;
 
         for (var j = peak + 1; j < arr.Length; j++)
-            if (arr[j-1] <= arr[j])
+            if (arr[j - 1] <= arr[j])
                 return false;
 
         return true;

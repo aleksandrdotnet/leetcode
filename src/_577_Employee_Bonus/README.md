@@ -16,8 +16,10 @@ Table: Employee
 | salary      | int     |
 +-------------+---------+
 ```
+
 `empId` is the column with unique values for this table.
-Each row of this table indicates the name and the `ID` of an `employee` in addition to their salary and the `id` of their manager.
+Each row of this table indicates the name and the `ID` of an `employee` in addition to their salary and the `id` of
+their manager.
 
 ```
 Table: Bonus
@@ -28,6 +30,7 @@ Table: Bonus
 | bonus       | int  |
 +-------------+------+
 ```
+
 `empId` is the column of unique values for this table.
 `empId` is a foreign key (reference column) to `empId` from the `Employee` table.
 Each row of this table contains the `id` of an `employee` and their respective bonus.
@@ -37,8 +40,10 @@ Return the result table in any order.
 The result format is in the following example.
 
 ## Example 1
+
 > **Input**:  
-> **Employee table**:  
+> **Employee table**:
+
 ```+-------+--------+------------+--------+
 | empId | name   | supervisor | salary |
 +-------+--------+------------+--------+
@@ -67,6 +72,7 @@ Output:
 ```
 
 ## Code
+
 ```tsql
 SELECT emp.name, b.BonusAmount AS Bonus 
     FROM Employees emp 
@@ -74,7 +80,7 @@ SELECT emp.name, b.BonusAmount AS Bonus
     WHERE b.BonusAmount IS NULL OR b.BonusAmount < 1000
 ```
 
-
 ## Complexity
+
 > **Time complexity**: O(n+m)  
 > **Space complexity**: O(n+m)

@@ -8,11 +8,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+        <PackageReference Include="BenchmarkDotNet" Version="0.14.0"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\_941_Valid_Mountain_Array\_941_Valid_Mountain_Array.csproj" />
+        <ProjectReference Include="..\_941_Valid_Mountain_Array\_941_Valid_Mountain_Array.csproj"/>
     </ItemGroup>
 
 </Project>

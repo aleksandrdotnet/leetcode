@@ -11,7 +11,7 @@ public class Test
         var result = Solution.IsPalindromeBest(input);
         Assert.Equal(expected, result);
     }
-    
+
     [Theory]
     [InlineData(121, true)]
     [InlineData(-121, false)]

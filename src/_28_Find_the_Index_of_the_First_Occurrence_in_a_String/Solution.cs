@@ -8,13 +8,11 @@ public class Solution
         {
             var flag = false;
             for (var j = 0; j < needle.Length; j++)
-            {
                 if (i + j >= haystack.Length || haystack[i + j] != needle[j])
                 {
                     flag = true;
                     break;
                 }
-            }
 
             if (!flag)
                 return i;

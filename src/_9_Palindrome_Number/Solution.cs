@@ -7,16 +7,17 @@ public class Solution
         if (x < 0) return false;
 
         var res = x.ToString();
-        for (int i = 0, j = res.Length - 1; i < res.Length/2; i++, j--)
-            if(res[i] != res[j]) return false;
+        for (int i = 0, j = res.Length - 1; i < res.Length / 2; i++, j--)
+            if (res[i] != res[j])
+                return false;
         return true;
     }
-    
+
     public static bool IsPalindromeBest(int x)
     {
         if (x < 0 || (x % 10 == 0 && x != 0)) return false;
 
-        int reversed = 0;
+        var reversed = 0;
 
         while (x > reversed)
         {

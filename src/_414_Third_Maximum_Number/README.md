@@ -6,9 +6,11 @@
 
 [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)
 
-Given an integer array `nums`, return the third distinct maximum number in this array. If the third maximum does not exist, return the maximum number.
+Given an integer array `nums`, return the third distinct maximum number in this array. If the third maximum does not
+exist, return the maximum number.
 
 ## Example 1
+
 > **Input**: `nums = [3,2,1]`  
 > **Output**: `1`  
 > **Explanation**:  
@@ -17,6 +19,7 @@ Given an integer array `nums`, return the third distinct maximum number in this 
 > The third distinct maximum is 1.
 
 ## Example 2
+
 > **Input**: `nums = [1,2]`  
 > **Output**: `2`  
 > **Explanation**:  
@@ -25,6 +28,7 @@ Given an integer array `nums`, return the third distinct maximum number in this 
 > The third distinct maximum does not exist, so the maximum (2) is returned instead.
 
 ## Example 3
+
 > **Input**: `nums = [2,2,3,1]`  
 > **Output**: `1`  
 > **Explanation**:  
@@ -33,10 +37,12 @@ Given an integer array `nums`, return the third distinct maximum number in this 
 > The third distinct maximum is 1.
 
 ## Constraints
-> - `1 <= nums.length <= 10^4`  
+
+> - `1 <= nums.length <= 10^4`
 > - `-2^31 <= nums[i] <= 2^31 - 1`
 
 ## Code
+
 ```csharp
 public int ThirdMax(int[] nums)
 {
@@ -67,5 +73,6 @@ public int ThirdMax(int[] nums)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O1()

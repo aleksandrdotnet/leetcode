@@ -19,10 +19,7 @@ public static class Solution
         }
 
         var result = max;
-        for (var i = 0; i < digits - 1; i++)
-        {
-            result = result * 10 + max;
-        }
+        for (var i = 0; i < digits - 1; i++) result = result * 10 + max;
 
         return result;
     }

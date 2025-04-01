@@ -9,10 +9,8 @@ public class Solution
 
         var dict = new Dictionary<int, int>();
         foreach (var n in nums)
-        {
             if (!dict.TryAdd(n, 1))
                 dict[n]++;
-        }
 
         return dict.All(x => x.Value % 2 == 0);
     }

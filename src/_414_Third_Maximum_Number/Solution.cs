@@ -17,14 +17,12 @@ public class Solution
         var superMax = nums[^1];
         var count = 1;
         for (var i = nums.Length - 2; i >= 0; i--)
-        {
-            if (nums[i+1] > nums[i])
+            if (nums[i + 1] > nums[i])
             {
                 count++;
-                if(count > 2)
+                if (count > 2)
                     return nums[i];
             }
-        }
 
         return superMax;
     }
