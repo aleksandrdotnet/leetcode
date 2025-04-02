@@ -5,7 +5,7 @@ namespace _577_Employee_Bonus;
 
 public class Solution
 {
-    public class TestDbContext : DbContext
+    public class AppDbContext : DbContext
     {
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Bonus> Bonuses { get; set; }

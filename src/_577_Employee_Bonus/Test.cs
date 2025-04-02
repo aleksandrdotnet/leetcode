@@ -7,7 +7,7 @@ public class Test
     [Fact]
     public void Query_Should_Return_Correct_Result()
     {
-        using var context = new Solution.TestDbContext();
+        using var context = new Solution.AppDbContext();
 
         context.Database.OpenConnection();
 
