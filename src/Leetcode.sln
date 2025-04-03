@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3_Longest_Substring_Withou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1075_Project_Employees_I", "_1075_Project_Employees_I\_1075_Project_Employees_I.csproj", "{E768EF9F-B3A1-452A-9579-55612FDB8DA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_434_Number_of_Segments_in_a_String", "_434_Number_of_Segments_in_a_String\_434_Number_of_Segments_in_a_String.csproj", "{F976AD52-4E3E-4BA0-A128-37718FB8DB46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -205,6 +207,10 @@ Global
 		{E768EF9F-B3A1-452A-9579-55612FDB8DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E768EF9F-B3A1-452A-9579-55612FDB8DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E768EF9F-B3A1-452A-9579-55612FDB8DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F976AD52-4E3E-4BA0-A128-37718FB8DB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F976AD52-4E3E-4BA0-A128-37718FB8DB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F976AD52-4E3E-4BA0-A128-37718FB8DB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F976AD52-4E3E-4BA0-A128-37718FB8DB46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
