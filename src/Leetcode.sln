@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1075_Project_Employees_I",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_434_Number_of_Segments_in_a_String", "_434_Number_of_Segments_in_a_String\_434_Number_of_Segments_in_a_String.csproj", "{F976AD52-4E3E-4BA0-A128-37718FB8DB46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "217_Contains_Duplicate", "217_Contains_Duplicate\217_Contains_Duplicate.csproj", "{C3E33373-5AE7-420D-B75C-37894F204EE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -211,6 +213,10 @@ Global
 		{F976AD52-4E3E-4BA0-A128-37718FB8DB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F976AD52-4E3E-4BA0-A128-37718FB8DB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F976AD52-4E3E-4BA0-A128-37718FB8DB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E33373-5AE7-420D-B75C-37894F204EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E33373-5AE7-420D-B75C-37894F204EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E33373-5AE7-420D-B75C-37894F204EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E33373-5AE7-420D-B75C-37894F204EE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
