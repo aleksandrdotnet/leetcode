@@ -11,7 +11,7 @@ public class Test
         var result = new Solution().CountSegments(s);
         Assert.Equal(expected, result);
     }
-    
+
     [Theory]
     [InlineData("Hello, my name is John", 5)]
     [InlineData("Hello", 1)]
@@ -21,7 +21,7 @@ public class Test
         var result = new Solution().CountSegments2(s);
         Assert.Equal(expected, result);
     }
-    
+
     [Theory]
     [InlineData("Hello, my name is John", 5)]
     [InlineData("Hello", 1)]

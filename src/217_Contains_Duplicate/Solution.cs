@@ -6,10 +6,8 @@ public class Solution
     {
         Dictionary<int, bool> dict = new(nums.Length);
         foreach (var el in nums)
-        {
             if (!dict.TryAdd(el, true))
                 return true;
-        }
         return false;
     }
 }

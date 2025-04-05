@@ -13,10 +13,8 @@ public class Solution
             return result;
 
         foreach (var n in str.Split(' '))
-        {
             if (n.Length != 0)
                 result++;
-        }
 
         return result;
     }
