@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "217_Contains_Duplicate", "2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1729_Find_Followers_Count", "_1729_Find_Followers_Count\_1729_Find_Followers_Count.csproj", "{805384A3-3A34-4BD8-A109-B6CAD83B091E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3467_Transform_Array_by_Parity", "_3467_Transform_Array_by_Parity\_3467_Transform_Array_by_Parity.csproj", "{285B453F-0766-49E3-A645-E64069B427A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -223,6 +225,10 @@ Global
 		{805384A3-3A34-4BD8-A109-B6CAD83B091E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{805384A3-3A34-4BD8-A109-B6CAD83B091E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{805384A3-3A34-4BD8-A109-B6CAD83B091E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285B453F-0766-49E3-A645-E64069B427A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285B453F-0766-49E3-A645-E64069B427A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285B453F-0766-49E3-A645-E64069B427A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285B453F-0766-49E3-A645-E64069B427A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
