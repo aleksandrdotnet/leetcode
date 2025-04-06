@@ -48,5 +48,5 @@ public int[] TransformArray(int[] nums)
 ```
 
 ## Complexity
-> **Time complexity**: O()  
-> **Space complexity**: O()
+> **Time complexity**: O(n)  
+> **Space complexity**: O(n)
