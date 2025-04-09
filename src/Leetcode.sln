@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1837_Sum_of_Digits_in_Base
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1827_Minimum_Operations_to_Make_the_Array_Increasing", "_1827_Minimum_Operations_to_Make_the_Array_Increasing\_1827_Minimum_Operations_to_Make_the_Array_Increasing.csproj", "{57E31AD4-483C-49F9-85C0-693085AF99EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2409_Count_Days_Spent_Together", "_2409_Count_Days_Spent_Together\_2409_Count_Days_Spent_Together.csproj", "{CD7D1B13-CFBC-4856-A300-36A8125B81AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -241,6 +243,10 @@ Global
 		{57E31AD4-483C-49F9-85C0-693085AF99EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57E31AD4-483C-49F9-85C0-693085AF99EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57E31AD4-483C-49F9-85C0-693085AF99EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD7D1B13-CFBC-4856-A300-36A8125B81AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7D1B13-CFBC-4856-A300-36A8125B81AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7D1B13-CFBC-4856-A300-36A8125B81AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7D1B13-CFBC-4856-A300-36A8125B81AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}

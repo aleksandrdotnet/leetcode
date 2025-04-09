@@ -4,8 +4,8 @@ public class Solution
 {
     public int SumBase(int n, int k)
     {
-        int next = n / k;
-        int result = n % k;
+        var next = n / k;
+        var result = n % k;
 
         while (next >= k)
         {

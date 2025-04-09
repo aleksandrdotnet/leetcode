@@ -5,7 +5,7 @@ public class Solution
     public int[] TransformArray(int[] nums)
     {
         var result = new int[nums.Length];
-        
+
         var odd = 0;
 
         foreach (var t in nums)

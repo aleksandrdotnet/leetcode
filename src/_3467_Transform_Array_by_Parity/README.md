@@ -8,12 +8,14 @@
 [3467. Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)
 
 You are given an integer array nums. Transform nums by performing the following operations in the exact order specified:
+
 - Replace each even number with 0.
 - Replace each odd numbers with 1.
 - Sort the modified array in non-decreasing order.
-Return the resulting array after performing these operations.
+  Return the resulting array after performing these operations.
 
 ## Example 1
+
 > **Input**: `nums = [4,3,2,1]`  
 > **Output**:` [0,0,1,1]`  
 > **Explanation**:  
@@ -21,6 +23,7 @@ Return the resulting array after performing these operations.
 > After sorting nums in non-descending order, nums = [0, 0, 1, 1].
 
 ## Example 2
+
 > **Input**: `nums = [1,5,1,4,2]`  
 > **Output**: `[0,0,1,1,1]`  
 > **Explanation**:  
@@ -28,10 +31,12 @@ Return the resulting array after performing these operations.
 > After sorting nums in non-descending order, nums = [0, 0, 1, 1, 1].
 
 ## Constraints
-> - `1 <= nums.length <= 100`  
+
+> - `1 <= nums.length <= 100`
 > - `1 <= nums[i] <= 1000`
 
 ## Code
+
 ```csharp
 public int[] TransformArray(int[] nums)
 {
@@ -48,5 +53,6 @@ public int[] TransformArray(int[] nums)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(n)
