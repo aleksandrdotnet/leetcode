@@ -35,7 +35,26 @@ of days per month can be represented as: [31, 28, 31, 30, 31, 30, 31, 31, 30, 31
 ## Code
 
 ```csharp
+private static readonly int[] Days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
+public int CountDaysTogether(string arriveAlice, string leaveAlice, string arriveBob, string leaveBob)
+{
+    var aliceStart = CountDaysInternal(arriveAlice);
+    var aliceEnd = CountDaysInternal(leaveAlice);
+
+    var bobStart = CountDaysInternal(arriveBob);
+    var bobEnd = CountDaysInternal(leaveBob);
+
+    return Math.Max(0, Math.Min(aliceEnd, bobEnd) - Math.Max(aliceStart, bobStart) + 1);
+}
+
+private int CountDaysInternal(ReadOnlySpan<char> date)
+{
+    var m = int.Parse(date[..2]);
+    var d = int.Parse(date[3..5]);
+
+    return Days[..(m - 1)].Sum() + d;
+}
 ```
 
 ## Complexity
