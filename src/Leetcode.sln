@@ -73,7 +73,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1075_Project_Employees_I",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_434_Number_of_Segments_in_a_String", "_434_Number_of_Segments_in_a_String\_434_Number_of_Segments_in_a_String.csproj", "{F976AD52-4E3E-4BA0-A128-37718FB8DB46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "217_Contains_Duplicate", "217_Contains_Duplicate\217_Contains_Duplicate.csproj", "{C3E33373-5AE7-420D-B75C-37894F204EE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_217_Contains_Duplicate", "_217_Contains_Duplicate\_217_Contains_Duplicate.csproj", "{C3E33373-5AE7-420D-B75C-37894F204EE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1729_Find_Followers_Count", "_1729_Find_Followers_Count\_1729_Find_Followers_Count.csproj", "{805384A3-3A34-4BD8-A109-B6CAD83B091E}"
 EndProject
@@ -86,6 +86,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2409_Count_Days_Spent_Together", "_2409_Count_Days_Spent_Together\_2409_Count_Days_Spent_Together.csproj", "{CD7D1B13-CFBC-4856-A300-36A8125B81AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_14_Longest_Common_Prefix", "_14_Longest_Common_Prefix\_14_Longest_Common_Prefix.csproj", "{150A473E-A310-4A68-A15F-486FC52B64E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1913_Maximum_Product_Difference_Between_Two_Pairs", "_1913_Maximum_Product_Difference_Between_Two_Pairs\_1913_Maximum_Product_Difference_Between_Two_Pairs.csproj", "{E45D1106-4E0E-4A85-AB0A-94EB64ED415E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -253,6 +255,10 @@ Global
 		{150A473E-A310-4A68-A15F-486FC52B64E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{150A473E-A310-4A68-A15F-486FC52B64E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{150A473E-A310-4A68-A15F-486FC52B64E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45D1106-4E0E-4A85-AB0A-94EB64ED415E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45D1106-4E0E-4A85-AB0A-94EB64ED415E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45D1106-4E0E-4A85-AB0A-94EB64ED415E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45D1106-4E0E-4A85-AB0A-94EB64ED415E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
