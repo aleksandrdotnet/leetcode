@@ -1,6 +1,6 @@
 # 185. Department Top Three Salaries
 
-![Complexity](https://img.shields.io/badge/easy-green)
+![Complexity](https://img.shields.io/badge/hard-red)
 ![Topics](https://img.shields.io/badge/database-blue)
 
 [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/description/)
@@ -99,6 +99,23 @@ FROM Department d
     FROM Employee emp
 ) e ON e.departmentId = d.id
 WHERE e.dr <= 3;
+
+-- Implementation #3
+SELECT
+    d.name AS Department,
+    o1.name AS Employee,
+    o1.salary AS Salary
+FROM Department d
+         OUTER APPLY (
+    SELECT
+        emp.departmentId,
+        emp.name,
+        emp.salary,
+        DENSE_RANK() OVER (ORDER BY emp.salary DESC) AS dr
+    FROM Employee emp
+    WHERE emp.departmentId = d.id
+) o1
+WHERE o1.dr <= 3;
 ```
 
 ## Complexity
