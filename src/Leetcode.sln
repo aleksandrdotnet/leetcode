@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_14_Longest_Common_Prefix",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1913_Maximum_Product_Difference_Between_Two_Pairs", "_1913_Maximum_Product_Difference_Between_Two_Pairs\_1913_Maximum_Product_Difference_Between_Two_Pairs.csproj", "{E45D1106-4E0E-4A85-AB0A-94EB64ED415E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_20_Valid_Parentheses", "_20_Valid_Parentheses\_20_Valid_Parentheses.csproj", "{A8D0B9D7-CE4C-4EB6-98C8-3B7F8256C4CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -259,6 +261,10 @@ Global
 		{E45D1106-4E0E-4A85-AB0A-94EB64ED415E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E45D1106-4E0E-4A85-AB0A-94EB64ED415E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E45D1106-4E0E-4A85-AB0A-94EB64ED415E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D0B9D7-CE4C-4EB6-98C8-3B7F8256C4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D0B9D7-CE4C-4EB6-98C8-3B7F8256C4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D0B9D7-CE4C-4EB6-98C8-3B7F8256C4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D0B9D7-CE4C-4EB6-98C8-3B7F8256C4CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
