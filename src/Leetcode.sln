@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_185_Department_Top_Three_S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{79A1FF8B-8421-4DE8-B26B-CA7966BF5865}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_58_Length_of_Last_Word", "_58_Length_of_Last_Word\_58_Length_of_Last_Word.csproj", "{006FC2E8-1B8D-450E-914F-6837E99A1138}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{94FD3DB2-8D4C-441C-908E-77A1141AB2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94FD3DB2-8D4C-441C-908E-77A1141AB2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94FD3DB2-8D4C-441C-908E-77A1141AB2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006FC2E8-1B8D-450E-914F-6837E99A1138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006FC2E8-1B8D-450E-914F-6837E99A1138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006FC2E8-1B8D-450E-914F-6837E99A1138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006FC2E8-1B8D-450E-914F-6837E99A1138}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
