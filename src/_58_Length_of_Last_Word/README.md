@@ -1,8 +1,7 @@
 # 58. Length of Last Word
 
 ![Complexity](https://img.shields.io/badge/easy-green)
-![Topics](https://img.shields.io/badge/array-blue)
-![Topics](https://img.shields.io/badge/two_pointers-blue)
+![Topics](https://img.shields.io/badge/string-blue)
 
 [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 
