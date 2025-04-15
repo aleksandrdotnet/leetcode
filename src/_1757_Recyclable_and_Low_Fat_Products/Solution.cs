@@ -29,7 +29,7 @@ public class Solution
                     .IsRequired();
 
                 entity.HasData(
-                    new Product { ProductId = 0, LowFats = "Y", Recyclable = "N" },
+                    new Product { ProductId = 5, LowFats = "Y", Recyclable = "N" },
                     new Product { ProductId = 1, LowFats = "Y", Recyclable = "Y" },
                     new Product { ProductId = 2, LowFats = "N", Recyclable = "Y" },
                     new Product { ProductId = 3, LowFats = "Y", Recyclable = "Y" },

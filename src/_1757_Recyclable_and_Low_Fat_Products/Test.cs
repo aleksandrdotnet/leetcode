@@ -5,7 +5,7 @@ namespace _1757_Recyclable_and_Low_Fat_Products;
 public class Test
 {
     [Fact]
-    public void CTE_Query_Should_Return_Correct_Result()
+    public void Query_Should_Return_Correct_Result()
     {
         using var context = new Solution.AppDbContext();
 
@@ -15,26 +15,27 @@ public class Test
 
         var result = context.Database.SqlQuery<Result>($@"
 select
-    product_id
+    ProductId
 from
     Products
 where 
-    low_fats = 'Y' AND recyclable = 'Y'")
+    LowFats = 'Y' AND Recyclable = 'Y'")
             .ToList();
 
         var expected = new List<Result>
         {
-            new() { product_id = 1 }
+            new() { ProductId = 1 },
+            new() { ProductId = 3 }
         };
 
         Assert.Equal(expected.Count, result.Count);
         foreach (var exp in expected)
             Assert.Contains(result,
-                r => r.product_id == exp.product_id);
+                r => r.ProductId == exp.ProductId);
     }
 
     public class Result
     {
-        public int product_id { get; set; }
+        public int ProductId { get; set; }
     }
 }
