@@ -17,13 +17,16 @@ public class Solution
         var d = 1;
         var s = x;
         while (s / 10 > 10)
-        {d++; s /= 10; }
+        {
+            d++;
+            s /= 10;
+        }
 
         var mn = Math.Max(x >> d, 0);
-        while (mn > x/mn)
+        while (mn > x / mn)
             mn >>= 1;
 
-        while((mn+1) <= x/(mn+1))
+        while (mn + 1 <= x / (mn + 1))
             mn += 1;
 
         return mn;
@@ -40,12 +43,12 @@ public class Solution2
 
         while (left <= right)
         {
-            int mid = left + (right - left) / 2;
-            long square = (long)mid * mid; // чтобы не было переполнения
+            var mid = left + (right - left) / 2;
+            var square = (long)mid * mid; // чтобы не было переполнения
 
             if (square == x)
                 return mid;
-            else if (square < x)
+            if (square < x)
             {
                 result = mid; // сохраняем последний успешный
                 left = mid + 1;
@@ -58,5 +61,4 @@ public class Solution2
 
         return result;
     }
-
 }

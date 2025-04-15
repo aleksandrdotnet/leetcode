@@ -1,6 +1,6 @@
 # 1757. Recyclable and Low Fat Products
 
-![Complexity](https://img.shields.io/badge/hard-red)
+![Complexity](https://img.shields.io/badge/easy-green)
 ![Topics](https://img.shields.io/badge/database-blue)
 
 [1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)

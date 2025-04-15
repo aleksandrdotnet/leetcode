@@ -13,7 +13,6 @@ public class Solution
     {
         var stack = new Stack<char>();
         foreach (var symbol in s)
-        {
             if (Brackets.TryGetValue(symbol, out var open))
             {
                 if (!stack.TryPop(out var closed) || closed != open)
@@ -23,7 +22,6 @@ public class Solution
             {
                 stack.Push(symbol);
             }
-        }
 
         return stack.Count == 0;
     }

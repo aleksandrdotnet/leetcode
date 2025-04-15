@@ -19,7 +19,7 @@ public class Solution
             modelBuilder.Entity<Product>(entity =>
             {
                 entity.HasKey(e => e.ProductId);
-            
+
                 entity.Property(e => e.LowFats)
                     .HasMaxLength(1)
                     .IsRequired();
@@ -47,5 +47,4 @@ public class Solution
         public string LowFats { get; set; } = default!;
         public string Recyclable { get; set; } = default!;
     }
-
 }

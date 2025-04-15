@@ -14,7 +14,7 @@ public class Test
         var result = new Solution().MySqrt(x);
         Assert.Equal(expected, result);
     }
-    
+
     [Theory]
     [InlineData(4, 2)]
     [InlineData(8, 2)]
