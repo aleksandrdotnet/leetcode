@@ -16,7 +16,8 @@ public class Solution
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Login>().HasKey(l => new { l.UserId, l.TimeStamp }); // составной ключ, чтобы seed сработал
+            modelBuilder.Entity<Login>()
+                .HasKey(l => new { l.UserId, l.TimeStamp }); // составной ключ, чтобы seed сработал
 
             modelBuilder.Entity<Login>().HasData(
                 new Login { UserId = 6, TimeStamp = DateTime.Parse("2020-06-30 15:06:07") },

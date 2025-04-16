@@ -34,7 +34,7 @@ GROUP BY UserId;")
             Assert.Contains(result,
                 r => r.UserId == exp.UserId && r.TimeStamp == exp.TimeStamp);
     }
-    
+
     [Fact]
     public void CTE_Query_Should_Return_Correct_Result()
     {
