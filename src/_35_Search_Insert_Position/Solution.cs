@@ -4,30 +4,22 @@ public class Solution
 {
     public int SearchInsert(int[] nums, int target)
     {
-        var mid = nums.Length / 2;
-        var value = nums[mid];
-        
-        if(value > target)
-            return SearchInsertExternal(nums, target, 0, mid);
+        var left = 0;
+        var right = nums.Length - 1;
 
-        return SearchInsertExternal(nums, target, mid,nums.Length - 1);
-    }
+        while (left <= right)
+        {
+            var mid = left + (right - left) / 2;
 
-    private int SearchInsertExternal(int[] nums, int target, int min, int max)
-    {
-        var mid = min + (max - min) / 2;
-        var value = nums[mid];
+            if (nums[mid] == target)
+                return mid;
 
-        if (value == target)
-            return mid;
-        if (mid == min && value < target)
-            return 1 + min;
-        if(max == mid && value < target)
-            return 1 + max;
-        
-        if(value > target)
-            return SearchInsertExternal(nums, target, min, mid);
+            if (nums[mid] < target)
+                left = mid + 1;
+            else
+                right = mid - 1;
+        }
 
-        return SearchInsertExternal(nums, target, mid, max);
+        return left;
     }
 }
