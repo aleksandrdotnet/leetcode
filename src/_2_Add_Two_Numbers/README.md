@@ -40,33 +40,31 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 ## Code
 
 ```csharp
-public static bool IsPalindrome(int x)
+public ListNode AddTwoNumbers(ListNode? l1, ListNode? l2)
 {
-    if (x < 0) return false;
-
-    var res = x.ToString();
-    for (int i = 0, j = res.Length - 1; i < res.Length/2; i++, j--)
-        if(res[i] != res[j]) return false;
-    return true;
-}
-
-public static bool IsPalindromeBest(int x)
-{
-    if (x < 0 || (x % 10 == 0 && x != 0)) return false;
-
-    int reversed = 0;
-
-    while (x > reversed)
+    var result = new ListNode();
+    var tmp = result;
+    var c = 0;
+    while (l1 != null || l2 != null || c != 0)
     {
-        reversed = reversed * 10 + x % 10;
-        x /= 10;
+        var sum = (l1?.val ?? 0) + (l2?.val ?? 0) + c;
+        c = sum / 10;
+        
+        if (sum > 9)
+            sum %= 10;
+
+        tmp.next = new ListNode(sum);
+        tmp = tmp.next;
+        
+        l1 = l1?.next;
+        l2 = l2?.next;
     }
 
-    return x == reversed || x == reversed / 10;
+    return result.next;
 }
 ```
 
 ## Complexity
 
-> **Time complexity**: O(logn)  
-> **Space complexity**: O(1)
+> **Time complexity**: O(n)  
+> **Space complexity**: O(n)

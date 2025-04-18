@@ -6,60 +6,91 @@ public class Test
     {
         yield return
         [
-            new Solution.ListNode(2,
-                new Solution.ListNode(4,
-                    new Solution.ListNode(3))),
+            new ListNode(2,
+                new ListNode(4,
+                    new ListNode(3))),
 
-            new Solution.ListNode(5,
-                new Solution.ListNode(6,
-                    new Solution.ListNode(4))),
+            new ListNode(5,
+                new ListNode(6,
+                    new ListNode(4))),
 
-            new Solution.ListNode(7,
-                new Solution.ListNode(0,
-                    new Solution.ListNode(8)))
+            new ListNode(7,
+                new ListNode(0,
+                    new ListNode(8)))
         ];
 
         yield return
         [
-            new Solution.ListNode(),
+            new ListNode(),
 
-            new Solution.ListNode(),
+            new ListNode(),
 
-            new Solution.ListNode()
+            new ListNode()
         ];
 
         yield return
         [
-            new Solution.ListNode(9,
-                new Solution.ListNode(9,
-                    new Solution.ListNode(9,
-                        new Solution.ListNode(9,
-                            new Solution.ListNode(9,
-                                new Solution.ListNode(9,
-                                    new Solution.ListNode(9)
+            new ListNode(9,
+                new ListNode(9,
+                    new ListNode(9,
+                        new ListNode(9,
+                            new ListNode(9,
+                                new ListNode(9,
+                                    new ListNode(9)
                                 )))))),
 
-            new Solution.ListNode(9,
-                new Solution.ListNode(9,
-                    new Solution.ListNode(9,
-                        new Solution.ListNode(9
+            new ListNode(9,
+                new ListNode(9,
+                    new ListNode(9,
+                        new ListNode(9
                         )))),
 
-            new Solution.ListNode(8,
-                new Solution.ListNode(9,
-                    new Solution.ListNode(9,
-                        new Solution.ListNode(9,
-                            new Solution.ListNode(0,
-                                new Solution.ListNode(0,
-                                    new Solution.ListNode(0,
-                                        new Solution.ListNode(1)
+            new ListNode(8,
+                new ListNode(9,
+                    new ListNode(9,
+                        new ListNode(9,
+                            new ListNode(0,
+                                new ListNode(0,
+                                    new ListNode(0,
+                                        new ListNode(1)
                                     )))))))
+        ];
+
+
+        yield return
+        [
+            new ListNode(9),
+
+            new ListNode(1,
+                new ListNode(9,
+                    new ListNode(9,
+                        new ListNode(9,
+                            new ListNode(9,
+                                new ListNode(9,
+                                    new ListNode(9,
+                                        new ListNode(9,
+                                            new ListNode(9,
+                                                new ListNode(9)))
+                                    ))))))),
+
+            new ListNode(0,
+                new ListNode(0,
+                    new ListNode(0,
+                        new ListNode(0,
+                            new ListNode(0,
+                                new ListNode(0,
+                                    new ListNode(0,
+                                        new ListNode(0,
+                                            new ListNode(0,
+                                                new ListNode(0,
+                                                    new ListNode(1)
+                                                ))))))))))
         ];
     }
 
-    //[Theory]
-    //[MemberData(nameof(GetTestData))]
-    public void Run(Solution.ListNode l1, Solution.ListNode l2, Solution.ListNode expceted)
+    [Theory]
+    [MemberData(nameof(GetTestData))]
+    public void Run(ListNode l1, ListNode l2, ListNode expceted)
     {
         var result = new Solution().AddTwoNumbers(l1, l2);
 
@@ -69,6 +100,23 @@ public class Test
             Assert.Equal(check.val, result.val);
 
             check = check.next;
+            result = result.next;
+        }
+    }
+
+    [Theory]
+    [MemberData(nameof(GetTestData))]
+    public void Run2(ListNode l1, ListNode l2, ListNode expceted)
+    {
+        var result = new Solution2().AddTwoNumbers(l1, l2);
+
+        var check = expceted;
+        while (check != null)
+        {
+            Assert.Equal(check.val, result.val);
+
+            check = check.next;
+            result = result.next;
         }
     }
 }
