@@ -7,15 +7,9 @@ public class Solution
         var count = 0;
 
         for (var i = 0; i < nums.Length; i++)
-        {
-            for (var j = i + 1; j < nums.Length; j++)
-            {
-                if (lower <= nums[i] + nums[j] && nums[i] + nums[j] <= upper)
-                {
-                    count++;
-                }
-            }
-        }
+        for (var j = i + 1; j < nums.Length; j++)
+            if (lower <= nums[i] + nums[j] && nums[i] + nums[j] <= upper)
+                count++;
 
         return count;
     }
@@ -35,14 +29,15 @@ public class Solution2
         int left = 0, right = nums.Length - 1;
 
         while (left < right)
-        {
-            if (nums[left] + nums[right] > target) right--;
+            if (nums[left] + nums[right] > target)
+            {
+                right--;
+            }
             else
             {
                 count += right - left;
                 left++;
             }
-        }
 
         return count;
     }
