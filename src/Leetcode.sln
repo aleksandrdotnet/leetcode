@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_704_Binary_Search", "_704_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_367_Valid_Perfect_Square", "_367_Valid_Perfect_Square\_367_Valid_Perfect_Square.csproj", "{0CCFDF81-7A85-4B07-A2B7-0BD8977653D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_125_Valid_Palindrome", "_125_Valid_Palindrome\_125_Valid_Palindrome.csproj", "{07308EE5-6569-4F7D-A06E-9431D86BE2AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -321,6 +323,10 @@ Global
 		{0CCFDF81-7A85-4B07-A2B7-0BD8977653D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CCFDF81-7A85-4B07-A2B7-0BD8977653D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CCFDF81-7A85-4B07-A2B7-0BD8977653D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07308EE5-6569-4F7D-A06E-9431D86BE2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07308EE5-6569-4F7D-A06E-9431D86BE2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07308EE5-6569-4F7D-A06E-9431D86BE2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07308EE5-6569-4F7D-A06E-9431D86BE2AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
