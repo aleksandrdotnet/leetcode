@@ -115,7 +115,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_125_Valid_Palindrome", "_1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_66_Plus_One", "_66_Plus_One\_66_Plus_One.csproj", "{44EB6102-266A-4391-B096-9B66ADADC1D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_67_Add_Binary", "_67_Add_Binary \_67_Add_Binary.csproj", "{F8EA1DC8-4530-46D8-A271-BE901E628B5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_67_Add_Binary", "_67_Add_Binary\_67_Add_Binary.csproj", "{F8EA1DC8-4530-46D8-A271-BE901E628B5F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_175_Combine_Two_Tables", "_175_Combine_Two_Tables\_175_Combine_Two_Tables.csproj", "{675F993B-949F-4DDA-ACF5-AA5E49DC955D}"
 EndProject
