@@ -1,6 +1,6 @@
 # 175. Combine Two Tables
 
-![Complexity](https://img.shields.io/badge/easy-red)
+![Complexity](https://img.shields.io/badge/easy-green)
 ![Topics](https://img.shields.io/badge/database-blue)
 
 [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/description/)
