@@ -4,7 +4,7 @@ public class Test
 {
     [Theory]
     [InlineData(new[] { 3, 2, 3 }, 3)]
-    [InlineData(new[] { 1, 1, 1, 2, 2, 2, 3, 3, 1 }, 1)]
+    [InlineData(new[] { 2, 2, 1, 1, 1, 2, 2 }, 2)]
     public void Run(int[] nums, int expected)
     {
         var result = new Solution().MajorityElement(nums);
@@ -14,7 +14,6 @@ public class Test
     [Theory]
     [InlineData(new[] { 3, 2, 3 }, 3)]
     [InlineData(new[] { 2, 2, 1, 1, 1, 2, 2 }, 2)]
-    [InlineData(new[] { 1, 1, 1, 2, 2, 2, 3, 3, 1 }, 1)]
     public void Run2(int[] nums, int expected)
     {
         var result = new Solution2().MajorityElement(nums);
