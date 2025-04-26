@@ -119,6 +119,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_67_Add_Binary", "_67_Add_B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_175_Combine_Two_Tables", "_175_Combine_Two_Tables\_175_Combine_Two_Tables.csproj", "{675F993B-949F-4DDA-ACF5-AA5E49DC955D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_169_Majority_Element", "_169_Majority_Element\_169_Majority_Element.csproj", "{F7735E28-4B47-4636-A33D-E9D2C51785F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -345,6 +347,10 @@ Global
 		{675F993B-949F-4DDA-ACF5-AA5E49DC955D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{675F993B-949F-4DDA-ACF5-AA5E49DC955D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{675F993B-949F-4DDA-ACF5-AA5E49DC955D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7735E28-4B47-4636-A33D-E9D2C51785F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7735E28-4B47-4636-A33D-E9D2C51785F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7735E28-4B47-4636-A33D-E9D2C51785F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7735E28-4B47-4636-A33D-E9D2C51785F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
