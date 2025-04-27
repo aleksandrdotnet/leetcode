@@ -121,6 +121,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_175_Combine_Two_Tables", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_169_Majority_Element", "_169_Majority_Element\_169_Majority_Element.csproj", "{F7735E28-4B47-4636-A33D-E9D2C51785F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_181_Employees_Earning_More_Than_Their_Managers", "_181_Employees_Earning_More_Than_Their_Managers\_181_Employees_Earning_More_Than_Their_Managers.csproj", "{D6F8986F-6E3D-43E9-A3DD-F66A7B4845FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -351,6 +353,10 @@ Global
 		{F7735E28-4B47-4636-A33D-E9D2C51785F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7735E28-4B47-4636-A33D-E9D2C51785F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7735E28-4B47-4636-A33D-E9D2C51785F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F8986F-6E3D-43E9-A3DD-F66A7B4845FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F8986F-6E3D-43E9-A3DD-F66A7B4845FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F8986F-6E3D-43E9-A3DD-F66A7B4845FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F8986F-6E3D-43E9-A3DD-F66A7B4845FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
@@ -361,5 +367,6 @@ Global
 		{0492F015-199F-49D0-89BA-BB6AFAD98808} = {79A1FF8B-8421-4DE8-B26B-CA7966BF5865}
 		{50996556-94E6-46A5-81C3-514B37B871C4} = {79A1FF8B-8421-4DE8-B26B-CA7966BF5865}
 		{675F993B-949F-4DDA-ACF5-AA5E49DC955D} = {79A1FF8B-8421-4DE8-B26B-CA7966BF5865}
+		{D6F8986F-6E3D-43E9-A3DD-F66A7B4845FB} = {79A1FF8B-8421-4DE8-B26B-CA7966BF5865}
 	EndGlobalSection
 EndGlobal
