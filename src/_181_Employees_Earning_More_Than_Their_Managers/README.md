@@ -52,10 +52,14 @@ Explanation: Joe is the only employee who earns more than his manager.
 ## Code
 
 ```tsql
-
+select 
+    emp.name [Employee]
+from Employee emp
+inner join Employee mngr on emp.managerId = mngr.id
+where emp.salary > mngr.salary
 ```
 
 ## Complexity
 
-> **Time complexity**: O(n)  
+> **Time complexity**: O(n^2)  
 > **Space complexity**: O(n)
