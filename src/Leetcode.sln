@@ -125,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_181_Employees_Earning_More
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3392_Count_Subarrays_of_Length_Three_With_a_Condition", "_3392_Count_Subarrays_of_Length_Three_With_a_Condition\_3392_Count_Subarrays_of_Length_Three_With_a_Condition.csproj", "{773463D0-67D5-41C1-87FC-F4AEBD1D24F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2302_Count_Subarrays_With_Score_Less_Than_K", "_2302_Count_Subarrays_With_Score_Less_Than_K\_2302_Count_Subarrays_With_Score_Less_Than_K.csproj", "{470148C8-447C-48E8-B798-F9D21B2C4D30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,10 @@ Global
 		{773463D0-67D5-41C1-87FC-F4AEBD1D24F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{773463D0-67D5-41C1-87FC-F4AEBD1D24F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{773463D0-67D5-41C1-87FC-F4AEBD1D24F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470148C8-447C-48E8-B798-F9D21B2C4D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470148C8-447C-48E8-B798-F9D21B2C4D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470148C8-447C-48E8-B798-F9D21B2C4D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470148C8-447C-48E8-B798-F9D21B2C4D30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
