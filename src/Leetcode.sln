@@ -129,6 +129,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2302_Count_Subarrays_With_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2962_Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times", "_2962_Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times\_2962_Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.csproj", "{4A25721A-4DD9-4FCE-96C5-2252FD4F5981}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_219_Contains_Duplicate_II", "_219_Contains_Duplicate_II\_219_Contains_Duplicate_II.csproj", "{C686A76A-8567-477D-8A2D-D0BB4916785F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -375,6 +377,10 @@ Global
 		{4A25721A-4DD9-4FCE-96C5-2252FD4F5981}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A25721A-4DD9-4FCE-96C5-2252FD4F5981}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A25721A-4DD9-4FCE-96C5-2252FD4F5981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C686A76A-8567-477D-8A2D-D0BB4916785F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C686A76A-8567-477D-8A2D-D0BB4916785F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C686A76A-8567-477D-8A2D-D0BB4916785F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C686A76A-8567-477D-8A2D-D0BB4916785F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
