@@ -18,6 +18,7 @@ A subarray is a contiguous sequence of elements within an array.
 ```
 
 ## Example 1
+
 ```
 Input: nums = [2,1,4,3,5], k = 10
 Output: 6
@@ -33,6 +34,7 @@ Note that subarrays such as [1,4] and [4,3,5] are not considered because their s
 ```
 
 ## Example 2
+
 ```
 Input: nums = [1,1,1], k = 5
 Output: 5
@@ -43,9 +45,11 @@ Thus, there are 5 subarrays having scores less than 5.```
 
 ## Constraints
 ```
+
 1 <= nums.length <= 10^5
 1 <= nums[i] <= 10^5
 1 <= k <= 10^15
+
 ```
 
 ## Code
@@ -72,5 +76,6 @@ public long CountSubarrays(int[] nums, long k)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(1)

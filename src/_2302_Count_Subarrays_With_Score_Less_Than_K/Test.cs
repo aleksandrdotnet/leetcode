@@ -11,7 +11,7 @@ public class Test
         var result = new Solution().CountSubarrays(nums, k);
         Assert.Equal(expected, result);
     }
-    
+
     [Theory]
     [InlineData(new[] { 2, 1, 4, 3, 5 }, 10, 6)]
     [InlineData(new[] { 1, 1, 1 }, 5, 5)]

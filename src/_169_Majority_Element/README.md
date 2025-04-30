@@ -87,4 +87,4 @@ public int MajorityElement(int[] nums)
 ## Complexity
 
 > **Time complexity**: O(n)  
-> **Space complexity**: O()
+> **Space complexity**: O(1)

@@ -15,6 +15,7 @@ A subarray is a contiguous sequence of elements within an array.
 ```
 
 ## Example 1
+
 ```
 Input: nums = [1,3,2,3,3], k = 2
 Output: 6
@@ -22,6 +23,7 @@ Explanation: The subarrays that contain the element 3 at least 2 times are: [1,3
 ```
 
 ## Example 2
+
 ```
 Input: nums = [1,4,2,1], k = 3
 Output: 0
@@ -29,6 +31,7 @@ Explanation: No subarray contains the element 4 at least 3 times.
 ```
 
 ## Constraints
+
 ```
 1 <= nums.length <= 10^5
 1 <= nums[i] <= 10^6
@@ -36,10 +39,33 @@ Explanation: No subarray contains the element 4 at least 3 times.
 ```
 
 ## Code
-```csharp
 
+```csharp
+public long CountSubarrays(int[] nums, long k)
+{
+    var result = 0L;
+    var count = 0L;
+    
+    var max = nums.Max();
+    for (int l = 0, r = 0; r < nums.Length; r++)
+    {
+        if(nums[r] == max)
+            count++;
+
+        while (count == k)
+        {
+            if (nums[l++] == max)
+                count--;
+        }
+        
+        result += l;
+    }
+    
+    return result;
+}
 ```
 
 ## Complexity
-> **Time complexity**: O()  
-> **Space complexity**: O()
+
+> **Time complexity**: O(n)  
+> **Space complexity**: O(1)

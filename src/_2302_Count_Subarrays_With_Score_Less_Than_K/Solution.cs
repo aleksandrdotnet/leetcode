@@ -5,12 +5,12 @@ public class Solution
     public long CountSubarrays(int[] nums, long k)
     {
         var result = 0L;
-        
+
         for (var i = 0; i < nums.Length; i++)
         {
             if (nums[i] >= k)
                 continue;
-            
+
             result++;
 
             for (var j = i + 1; j < nums.Length; j++)
@@ -18,11 +18,11 @@ public class Solution
                 var subsum = nums[i..(j + 1)].Sum();
                 if (subsum * (j - i + 1) >= k)
                     break;
-                
+
                 result++;
             }
         }
-        
+
         return result;
     }
 }
@@ -33,7 +33,7 @@ public class Solution2
     {
         var result = 0L;
         var sum = 0L;
-        
+
         var left = 0;
 
         for (var right = 0; right < nums.Length; right++)

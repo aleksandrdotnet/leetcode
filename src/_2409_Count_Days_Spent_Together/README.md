@@ -59,5 +59,5 @@ private int CountDaysInternal(ReadOnlySpan<char> date)
 
 ## Complexity
 
-> **Time complexity**: O()  
-> **Space complexity**: O()
+> **Time complexity**: O(n)  
+> **Space complexity**: O(1)

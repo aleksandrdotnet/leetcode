@@ -6,22 +6,20 @@ public class Solution
     {
         var result = 0L;
         var count = 0L;
-        
+
         var max = nums.Max();
         for (int l = 0, r = 0; r < nums.Length; r++)
         {
-            if(nums[r] == max)
+            if (nums[r] == max)
                 count++;
 
             while (count == k)
-            {
                 if (nums[l++] == max)
                     count--;
-            }
-            
+
             result += l;
         }
-        
+
         return result;
     }
 }

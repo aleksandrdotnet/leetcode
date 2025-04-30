@@ -43,5 +43,4 @@ public class Solution
         public int Salary { get; init; }
         public int? ManagerId { get; init; }
     }
-
 }

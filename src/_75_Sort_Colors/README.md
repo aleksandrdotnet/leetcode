@@ -98,5 +98,5 @@ private int[] Merge2(int[] left, int[] right) =>
 
 ## Complexity
 
-> **Time complexity**: O()  
-> **Space complexity**: O()
+> **Time complexity**: O(nlogn)  
+> **Space complexity**: O(n)
