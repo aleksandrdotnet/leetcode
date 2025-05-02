@@ -135,6 +135,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_643_Maximum_Average_Subarr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2071_Maximum_Number_of_Tasks_You_Can_Assign", "_2071_Maximum_Number_of_Tasks_You_Can_Assign\_2071_Maximum_Number_of_Tasks_You_Can_Assign.csproj", "{715649EF-7CF8-4414-B406-F102D1321D93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_838_Push_Dominoes", "_838_Push_Dominoes\_838_Push_Dominoes.csproj", "{EFA9933D-DFB8-4ADF-9E3C-47D8481191FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -393,6 +395,10 @@ Global
 		{715649EF-7CF8-4414-B406-F102D1321D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{715649EF-7CF8-4414-B406-F102D1321D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{715649EF-7CF8-4414-B406-F102D1321D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA9933D-DFB8-4ADF-9E3C-47D8481191FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA9933D-DFB8-4ADF-9E3C-47D8481191FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA9933D-DFB8-4ADF-9E3C-47D8481191FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA9933D-DFB8-4ADF-9E3C-47D8481191FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
