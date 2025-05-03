@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2071_Maximum_Number_of_Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_838_Push_Dominoes", "_838_Push_Dominoes\_838_Push_Dominoes.csproj", "{EFA9933D-DFB8-4ADF-9E3C-47D8481191FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1007_Minimum_Domino_Rotations_For_Equal_Row", "_1007_Minimum_Domino_Rotations_For_Equal_Row\_1007_Minimum_Domino_Rotations_For_Equal_Row.csproj", "{6FD2DE22-7876-4057-9DC0-8650194DBB9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -399,6 +401,10 @@ Global
 		{EFA9933D-DFB8-4ADF-9E3C-47D8481191FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFA9933D-DFB8-4ADF-9E3C-47D8481191FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFA9933D-DFB8-4ADF-9E3C-47D8481191FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD2DE22-7876-4057-9DC0-8650194DBB9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD2DE22-7876-4057-9DC0-8650194DBB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD2DE22-7876-4057-9DC0-8650194DBB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD2DE22-7876-4057-9DC0-8650194DBB9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}

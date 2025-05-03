@@ -25,6 +25,7 @@ Return a string representing the final state.
 ```
 
 ## Example 1
+
 ```
 Input: dominoes = "RR.L"
 Output: "RR.L"
@@ -32,12 +33,16 @@ Explanation: The first domino expends no additional force on the second domino.
 ```
 
 ## Example 2
+
+![png](Resources/838.png)
+
 ```
 Input: dominoes = ".L.R...LR..L.."
 Output: "LL.RR.LLRRLL.."
 ```
 
 ## Constraints
+
 ```
 n == dominoes.length
 1 <= n <= 10^5
@@ -45,6 +50,7 @@ dominoes[i] is either 'L', 'R', or '.'.
 ```
 
 ## Code
+
 ```csharp
 public string PushDominoes(string dominoes)
 {
@@ -95,5 +101,6 @@ public string PushDominoes(string dominoes)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(n)

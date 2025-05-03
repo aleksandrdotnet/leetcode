@@ -19,6 +19,7 @@ Given the 0-indexed integer arrays tasks and workers and the integers pills and 
 ```
 
 ## Example 1
+
 ```
 Input: tasks = [3,2,1], workers = [0,3,3], pills = 1, strength = 1
 Output: 3
@@ -31,6 +32,7 @@ We can assign the magical pill and tasks as follows:
 ```
 
 ## Example 2
+
 ```
 Input: tasks = [5,4], workers = [0,0,0], pills = 1, strength = 5
 Output: 1
@@ -41,6 +43,7 @@ We can assign the magical pill and tasks as follows:
 ```
 
 ## Example 3
+
 ```
 Input: tasks = [10,15,30], workers = [0,10,10,10,10], pills = 3, strength = 10
 Output: 2
@@ -53,6 +56,7 @@ The last pill is not given because it will not make any worker strong enough for
 ```
 
 ## Constraints
+
 ```
 n == tasks.length
 m == workers.length
@@ -62,6 +66,7 @@ m == workers.length
 ```
 
 ## Code
+
 ```csharp
 public int MaxTaskAssign(int[] tasks, int[] workers, int pills, int strength)
 {
@@ -131,5 +136,6 @@ private static bool CanExecute(int k, int[] tasks, int[] workers, int pills, int
 ```
 
 ## Complexity
+
 > **Time complexity**: O()  
 > **Space complexity**: O()

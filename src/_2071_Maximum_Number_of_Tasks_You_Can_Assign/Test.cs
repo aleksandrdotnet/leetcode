@@ -12,7 +12,7 @@ public class Test
         var result = new Solution().MaxTaskAssign(tasks, workers, pills, strength);
         Assert.Equal(expected, result);
     }
-    
+
     [Theory]
     [InlineData(new[] { 3, 2, 1 }, new[] { 0, 3, 3 }, 1, 1, 3)]
     [InlineData(new[] { 5, 4 }, new[] { 0, 0, 0 }, 1, 5, 1)]

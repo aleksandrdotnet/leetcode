@@ -1,19 +1,25 @@
 namespace _2071_Maximum_Number_of_Tasks_You_Can_Assign;
 
-public class Solution {
-    public int MaxTaskAssign(int[] tasks, int[] workers, int pills, int strength) {
+public class Solution
+{
+    public int MaxTaskAssign(int[] tasks, int[] workers, int pills, int strength)
+    {
         Array.Sort(tasks);
         Array.Sort(workers);
 
         int left = 0, right = Math.Min(tasks.Length, workers.Length);
-        int result = 0;
+        var result = 0;
 
-        while (left <= right) {
-            int mid = (left + right) / 2;
-            if (CanAssign(tasks, workers, pills, strength, mid)) {
+        while (left <= right)
+        {
+            var mid = (left + right) / 2;
+            if (CanAssign(tasks, workers, pills, strength, mid))
+            {
                 result = mid;
                 left = mid + 1;
-            } else {
+            }
+            else
+            {
                 right = mid - 1;
             }
         }
@@ -21,26 +27,29 @@ public class Solution {
         return result;
     }
 
-    private bool CanAssign(int[] tasks, int[] workers, int pills, int strength, int k) {
+    private bool CanAssign(int[] tasks, int[] workers, int pills, int strength, int k)
+    {
         var taskQueue = new LinkedList<int>(tasks.Take(k));
         var usableWorkers = new LinkedList<int>(workers.Skip(workers.Length - k));
 
-        int remainingPills = pills;
+        var remainingPills = pills;
 
-        while (taskQueue.Count > 0) {
-            int hardestTask = taskQueue.Last.Value; 
+        while (taskQueue.Count > 0)
+        {
+            var hardestTask = taskQueue.Last.Value;
             taskQueue.RemoveLast();
 
-            if (usableWorkers.Last.Value >= hardestTask) {
+            if (usableWorkers.Last.Value >= hardestTask)
+            {
                 usableWorkers.RemoveLast(); // Рабочий справляется без таблетки
-            } else {
+            }
+            else
+            {
                 if (remainingPills == 0) return false;
 
                 // Найти самого слабого рабочего, которого можно усилить и он справится
                 var it = usableWorkers.First;
-                while (it != null && it.Value + strength < hardestTask) {
-                    it = it.Next;
-                }
+                while (it != null && it.Value + strength < hardestTask) it = it.Next;
 
                 if (it == null) return false;
 
@@ -68,13 +77,9 @@ public class Solution2
             var mid = (l + r) / 2;
 
             if (CanExecute(mid, tasks, workers, pills, strength))
-            {
                 l = mid + 1;
-            }
             else
-            {
                 r = mid - 1;
-            }
         }
 
         return r;
@@ -97,21 +102,16 @@ public class Solution2
                 currWorker--;
             }
 
-            if (ws.Count == 0)
-            {
-                return false;
-            }
-            else if (ws.Last.Value >= tasks[k - 1 - i])
+            if (ws.Count == 0) return false;
+
+            if (ws.Last.Value >= tasks[k - 1 - i])
             {
                 ws.RemoveLast();
             }
             else
             {
                 // need to use pill
-                if (pills == 0)
-                {
-                    return false;
-                }
+                if (pills == 0) return false;
 
                 pills--;
                 ws.RemoveFirst();
