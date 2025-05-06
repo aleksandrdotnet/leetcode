@@ -3,9 +3,9 @@
 public class Test
 {
     [Theory]
-    [InlineData(1, 1)]  // 1
-    [InlineData(2, 2)]  // 1 // 1
-    [InlineData(3, 5)]  // 3 // 3
+    [InlineData(1, 1)] // 1
+    [InlineData(2, 2)] // 1 // 1
+    [InlineData(3, 5)] // 3 // 3
     [InlineData(4, 11)] // 6 // 8
     [InlineData(5, 24)] // 13 // 19
     [InlineData(6, 53)] // 29 // 43
@@ -17,11 +17,11 @@ public class Test
         var result = new Solution().NumTilings(n);
         Assert.Equal(expected, result);
     }
-    
+
     [Theory]
-    [InlineData(1, 1)]  // 1
-    [InlineData(2, 2)]  // 1 // 1
-    [InlineData(3, 5)]  // 3 // 3
+    [InlineData(1, 1)] // 1
+    [InlineData(2, 2)] // 1 // 1
+    [InlineData(3, 5)] // 3 // 3
     [InlineData(4, 11)] // 6 // 8
     [InlineData(5, 24)] // 13 // 19
     [InlineData(6, 53)] // 29 // 43

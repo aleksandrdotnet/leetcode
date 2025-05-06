@@ -9,7 +9,9 @@
 You have two types of tiles: a 2 x 1 domino shape and a tromino shape. 
 You may rotate these shapes.
 ```
+
 ![png](Resources/790-1.jpg)
+
 ```
 Given an integer n, return the number of ways to tile an 2 x n board. Since the answer may be very large, return it modulo 109 + 7.
 
@@ -18,7 +20,9 @@ Two tilings are different if and only if there are two 4-directionally adjacent 
 ```
 
 ## Example 1
+
 ![png](Resources/790-2.jpg)
+
 ```
 Input: n = 3
 Output: 5
@@ -26,17 +30,20 @@ Explanation: The five different ways are show above.
 ```
 
 ## Example 2
+
 ```
 Input: n = 1
 Output: 1
 ```
 
 ## Constraints
+
 ```
 1 <= n <= 1000
 ```
 
 ## Code
+
 ```csharp
 public int NumTilings(int n)
 {
@@ -58,5 +65,6 @@ public int NumTilings(int n)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(n)
