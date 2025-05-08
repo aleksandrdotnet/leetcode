@@ -2,10 +2,29 @@
 
 public class Test
 {
-    [Theory]
-    [InlineData()]
-    public void Run(int[][] moveTime, int expected)
+    [Fact]
+    public void Run()
     {
+        var moveTime = new[] { new[] { 0, 4 }, new[] { 4, 4 } };
+        var expected = 7; 
+        var result = new Solution().MinTimeToReach(moveTime);
+        Assert.Equal(expected, result);
+    }
+
+    [Fact]
+    public void Run2()
+    {
+        var moveTime = new[] { new[] { 0, 0, 0, 0 }, new[] { 0, 0, 0, 0 } };
+        var expected = 6;
+        var result = new Solution().MinTimeToReach(moveTime);
+        Assert.Equal(expected, result);
+    }
+
+    [Fact]
+    public void Run3()
+    {
+        var moveTime = new[] { new[] { 0, 1 }, new[] { 1, 2 } };
+        var expected = 4;
         var result = new Solution().MinTimeToReach(moveTime);
         Assert.Equal(expected, result);
     }

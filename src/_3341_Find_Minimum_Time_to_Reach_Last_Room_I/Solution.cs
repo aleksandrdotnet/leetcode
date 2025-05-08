@@ -36,7 +36,7 @@ public class Solution
             int d = current.Item1;
             var u = current.Item2;
 
-            if (u.Equals(dst))
+            if (u == dst)
                 return d;
 
             int i = u.Item1;
