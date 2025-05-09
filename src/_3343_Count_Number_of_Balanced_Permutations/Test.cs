@@ -3,7 +3,9 @@
 public class Test
 {
     [Theory]
-    [InlineData()]
+    [InlineData("123", 2)]
+    [InlineData("112", 1)]
+    [InlineData("12345", 0)]
     public void Run(string num, int expected)
     {
         var result = new Solution().CountBalancedPermutations(num);
