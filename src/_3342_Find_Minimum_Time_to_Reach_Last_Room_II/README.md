@@ -17,6 +17,7 @@ Two rooms are adjacent if they share a common wall, either horizontally or verti
 ```
 
 ## Example 1
+
 ```
 Input: moveTime = [[0,4],[4,4]]
 
@@ -31,6 +32,7 @@ At time t == 5, move from room (1, 0) to room (1, 1) in two seconds.
 ```
 
 ## Example 2
+
 ```
 Input: moveTime = [[0,0,0,0],[0,0,0,0]]
 
@@ -47,6 +49,7 @@ At time t == 4, move from room (1, 2) to room (1, 3) in two seconds.
 ```
 
 ## Example 3
+
 ```
 Input: moveTime = [[0,1],[1,2]]
 
@@ -54,6 +57,7 @@ Output: 4
 ```
 
 ## Constraints
+
 ```
 2 <= n == moveTime.length <= 750
 2 <= m == moveTime[i].length <= 750
@@ -61,6 +65,7 @@ Output: 4
 ```
 
 ## Code
+
 ```csharp
 public int MinTimeToReach(int[][] moveTime)
 {
@@ -147,5 +152,6 @@ private static List<(int, int)> ReconstructPath(Dictionary<(int, int), (int, int
 ```
 
 ## Complexity
+
 > **Time complexity**: O(m * n * log(m * n))  
 > **Space complexity**: O(m * n)

@@ -6,7 +6,7 @@ public class Test
     public void Run()
     {
         var moveTime = new[] { new[] { 0, 4 }, new[] { 4, 4 } };
-        var expected = 6; 
+        var expected = 6;
         var result = new Solution().MinTimeToReach(moveTime);
         Assert.Equal(expected, result);
     }

@@ -2,6 +2,8 @@ namespace _3342_Find_Minimum_Time_to_Reach_Last_Room_II;
 
 public class Solution
 {
+    private static bool Flag = true;
+
     public int MinTimeToReach(int[][] moveTime)
     {
         var result = AStar(moveTime, (0, 0), (moveTime.Length - 1, moveTime[0].Length - 1));
@@ -27,10 +29,10 @@ public class Solution
             if (current == goal)
                 //return ReconstructPath(cameFrom, current);
                 return gScore[goal];
-            
+
             foreach (var neighbor in GetNeighbors(current, grid, rows, cols, gScore[current]))
             {
-                var tentativeG = neighbor.Item2 + ((neighbor.Item1.Item1+ neighbor.Item1.Item2) % 2 == 1 ? 1 : 2);
+                var tentativeG = neighbor.Item2 + ((neighbor.Item1.Item1 + neighbor.Item1.Item2) % 2 == 1 ? 1 : 2);
 
                 if (!gScore.TryGetValue(neighbor.Item1, out var g) || tentativeG < g)
                 {
@@ -51,22 +53,21 @@ public class Solution
         return Math.Abs(a.x - b.x) + Math.Abs(a.y - b.y);
     }
 
-    private static bool Flag = true;
     private static IEnumerable<((int, int), int)> GetNeighbors((int x, int y) node, int[][] grid, int rows, int cols,
         int weight)
     {
         int[] dx = { 0, 1, 0, -1 };
         int[] dy = { -1, 0, 1, 0 };
 
-        for (int i = 0; i < 4; i++)
+        for (var i = 0; i < 4; i++)
         {
-            int nx = node.x + dx[i];
-            int ny = node.y + dy[i];
+            var nx = node.x + dx[i];
+            var ny = node.y + dy[i];
 
             if (nx >= 0 && ny >= 0 && nx < rows && ny < cols)
             {
                 var newWeight = grid[nx][ny] > weight ? grid[nx][ny] : weight;
-                
+
                 yield return ((nx, ny), newWeight);
             }
         }

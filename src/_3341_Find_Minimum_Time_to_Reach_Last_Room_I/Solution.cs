@@ -17,12 +17,12 @@ public class Solution
             [-1, 0]
         ];
 
-        int m = moveTime.Length;
-        int n = moveTime[0].Length;
-        int[,] dist = new int[m, n];
+        var m = moveTime.Length;
+        var n = moveTime[0].Length;
+        var dist = new int[m, n];
 
-        for (int i = 0; i < m; i++)
-        for (int j = 0; j < n; j++)
+        for (var i = 0; i < m; i++)
+        for (var j = 0; j < n; j++)
             dist[i, j] = int.MaxValue;
 
         dist[0, 0] = 0;
@@ -33,26 +33,26 @@ public class Solution
         while (minHeap.Count > 0)
         {
             var current = minHeap.Dequeue();
-            int d = current.Item1;
+            var d = current.Item1;
             var u = current.Item2;
 
             if (u == dst)
                 return d;
 
-            int i = u.Item1;
-            int j = u.Item2;
+            var i = u.Item1;
+            var j = u.Item2;
 
             if (d > dist[i, j])
                 continue;
 
             foreach (var dir in dirs)
             {
-                int x = i + dir[0];
-                int y = j + dir[1];
+                var x = i + dir[0];
+                var y = j + dir[1];
                 if (x < 0 || x >= m || y < 0 || y >= n)
                     continue;
 
-                int newDist = Math.Max(moveTime[x][y], d) + 1;
+                var newDist = Math.Max(moveTime[x][y], d) + 1;
                 if (newDist < dist[x, y])
                 {
                     dist[x, y] = newDist;

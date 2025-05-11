@@ -23,6 +23,7 @@ Two rooms are adjacent if they share a common wall, either horizontally or verti
 ```
 
 ## Example 1
+
 ```
 Input: moveTime = [[0,4],[4,4]]
 
@@ -37,6 +38,7 @@ At time t == 5, move from room (1, 0) to room (1, 1) in one second.
 ```
 
 ## Example 2
+
 ```
 Input: moveTime = [[0,0,0],[0,0,0]]
 
@@ -52,6 +54,7 @@ At time t == 2, move from room (1, 1) to room (1, 2) in one second.
 ```
 
 # Example 3
+
 ```
 Input: moveTime = [[0,1],[1,2]]
 
@@ -59,6 +62,7 @@ Output: 3
 ```
 
 ## Constraints
+
 ```
 2 <= n == moveTime.length <= 50
 2 <= m == moveTime[i].length <= 50
@@ -66,6 +70,7 @@ Output: 3
 ```
 
 ## Code
+
 ```csharp
 namespace _3341_Find_Minimum_Time_to_Reach_Last_Room_I;
 
@@ -136,5 +141,6 @@ public class Solution
 ```
 
 ## Complexity
+
 > **Time complexity**: O(m * n * log(m * n))  
 > **Space complexity**: O(m * n)

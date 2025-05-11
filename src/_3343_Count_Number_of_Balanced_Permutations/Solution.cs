@@ -7,40 +7,38 @@ public class Solution
         var count = num.Length;
         var dict = new Dictionary<int, int>();
 
-        foreach (var c in num)
-        {
-            dict[c - 48] = dict.GetValueOrDefault(c - 48, 0) + 1;
-        }
+        foreach (var c in num) dict[c - 48] = dict.GetValueOrDefault(c - 48, 0) + 1;
 
-        var result = dict.Sum(x=>x.Key * x.Value);
+        var result = dict.Sum(x => x.Key * x.Value);
         if (result % 2 != 0)
             return 0;
 
         return CountCombinations(result / 2, dict);
     }
-    
-    static int CountCombinations(int target, Dictionary<int, int> digits)
+
+    private static int CountCombinations(int target, Dictionary<int, int> digits)
     {
         var digitList = new List<int>(digits.Keys);
         var memo = new Dictionary<string, int>();
-        return Count(target, 0, digitList, digits, memo) - digits.Sum(x=>x.Value-1);
+        return Count(target, 0, digitList, digits, memo) - digits.Sum(x => x.Value - 1);
     }
 
-    static int Count(int remaining, int index, List<int> digitList, Dictionary<int, int> limits, Dictionary<string, int> memo)
+    private static int Count(int remaining, int index, List<int> digitList, Dictionary<int, int> limits,
+        Dictionary<string, int> memo)
     {
         if (remaining == 0) return 1;
         if (remaining < 0 || index == digitList.Count) return 0;
 
-        string key = $"{remaining}-{index}";
+        var key = $"{remaining}-{index}";
         if (memo.ContainsKey(key)) return memo[key];
 
-        int digit = digitList[index];
-        int maxCount = limits[digit];
-        int total = 0;
+        var digit = digitList[index];
+        var maxCount = limits[digit];
+        var total = 0;
 
-        for (int count = 0; count <= maxCount; count++)
+        for (var count = 0; count <= maxCount; count++)
         {
-            int sum = digit * count;
+            var sum = digit * count;
             if (sum > remaining) break;
             total += Count(remaining - sum, index + 1, digitList, limits, memo);
         }

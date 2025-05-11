@@ -21,6 +21,7 @@ A permutation is a rearrangement of all the characters of a string.
 ```
 
 ## Example 1
+
 ```
 Input: num = "123"
 
@@ -33,6 +34,7 @@ Among them, "132" and "231" are balanced. Thus, the answer is 2.
 ```
 
 ## Example 2
+
 ```
 Input: num = "112"
 
@@ -45,6 +47,7 @@ Only "121" is balanced. Thus, the answer is 1.
 ```
 
 ## Example 3:
+
 ```
 Input: num = "12345"
 
@@ -56,12 +59,14 @@ None of the permutations of num are balanced, so the answer is 0.
 ```
 
 ## Constraints
+
 ```
 2 <= num.length <= 80
 num consists of digits '0' to '9' only.
 ```
 
 ## Code
+
 ```csharp
 ate const int MOD = 1_000_000_007;
 
@@ -154,5 +159,6 @@ private long ModInverse(long a)
 ```
 
 ## Complexity
+
 > **Time complexity**: O()  
 > **Space complexity**: O()
