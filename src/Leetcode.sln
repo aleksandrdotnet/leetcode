@@ -157,6 +157,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1550_Three_Consecutive_Odd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2094_Finding_3-Digit_Even_Numbers", "_2094_Finding_3-Digit_Even_Numbers\_2094_Finding_3-Digit_Even_Numbers.csproj", "{4930ADE5-D41C-4235-A63F-38FDEFCE5DB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3335_Total_Characters_in_String_After_Transformations_I", "_3335_Total_Characters_in_String_After_Transformations_I\_3335_Total_Characters_in_String_After_Transformations_I.csproj", "{6BB8AB72-CAF6-4869-996A-4D60BB7D9B0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -459,6 +461,10 @@ Global
 		{4930ADE5-D41C-4235-A63F-38FDEFCE5DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4930ADE5-D41C-4235-A63F-38FDEFCE5DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4930ADE5-D41C-4235-A63F-38FDEFCE5DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB8AB72-CAF6-4869-996A-4D60BB7D9B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB8AB72-CAF6-4869-996A-4D60BB7D9B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB8AB72-CAF6-4869-996A-4D60BB7D9B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB8AB72-CAF6-4869-996A-4D60BB7D9B0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
