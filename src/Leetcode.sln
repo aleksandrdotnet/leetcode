@@ -163,6 +163,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3337_Total_Characters_in_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2900_Longest_Unequal_Adjacent_Groups_Subsequence_I", "_2900_Longest_Unequal_Adjacent_Groups_Subsequence_I\_2900_Longest_Unequal_Adjacent_Groups_Subsequence_I.csproj", "{B7CD8A73-6BA0-46D1-ABAE-13930909F770}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2901_Longest_Unequal_Adjacent_Groups_Subsequence_II", "_2901_Longest_Unequal_Adjacent_Groups_Subsequence_II\_2901_Longest_Unequal_Adjacent_Groups_Subsequence_II.csproj", "{33F2D4CC-8A96-4621-8819-99B472A90865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -477,6 +479,10 @@ Global
 		{B7CD8A73-6BA0-46D1-ABAE-13930909F770}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7CD8A73-6BA0-46D1-ABAE-13930909F770}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7CD8A73-6BA0-46D1-ABAE-13930909F770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F2D4CC-8A96-4621-8819-99B472A90865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F2D4CC-8A96-4621-8819-99B472A90865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F2D4CC-8A96-4621-8819-99B472A90865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F2D4CC-8A96-4621-8819-99B472A90865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
