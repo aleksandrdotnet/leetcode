@@ -2,26 +2,6 @@ namespace _75_Sort_Colors;
 
 public class Solution
 {
-    public void SortColors2(int[] nums)
-    {
-        var ns = MergeSort2(nums);
-        for (var index = 0; index < ns.Length; index++)
-            nums[index] = ns[index];
-    }
-
-    private int[] MergeSort2(int[] array)
-    {
-        return array.Length < 2
-            ? array
-            : Merge2(MergeSort2(array[..(array.Length / 2)]), MergeSort2(array[(array.Length / 2)..]));
-    }
-
-    private int[] Merge2(int[] left, int[] right)
-    {
-        return left.Concat(right).OrderBy(x => x).ToArray();
-    }
-
-
     public void SortColors(int[] nums)
     {
         MergeSort(nums);
@@ -64,5 +44,47 @@ public class Solution
 
         for (var x = left; x <= right; x++)
             array[x] = temp[x];
+    }
+}
+
+class Solution2
+{
+    public void SortColors(int[] nums)
+    {
+        var ns = MergeSort(nums);
+        for (var index = 0; index < ns.Length; index++)
+            nums[index] = ns[index];
+    }
+
+    private int[] MergeSort(int[] array)
+    {
+        return array.Length < 2
+            ? array
+            : Merge(MergeSort(array[..(array.Length / 2)]), MergeSort(array[(array.Length / 2)..]));
+    }
+
+    private int[] Merge(int[] left, int[] right)
+    {
+        return left.Concat(right).OrderBy(x => x).ToArray();
+    }
+}
+
+class Solution3
+{
+    public void SortColors(int[] nums)
+    {
+        BubbleSort(nums);
+    }
+
+    private void BubbleSort(int[] array)
+    {
+        for (var i = 0; i < array.Length; i++)
+        {
+            for (var j = i + 1; j < array.Length; j++)
+            {
+                if(array[i] > array[j])
+                    (array[i], array[j]) = (array[j], array[i]);
+            }
+        }
     }
 }

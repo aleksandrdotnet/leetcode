@@ -32,50 +32,67 @@ red, white, and blue, respectively. You must solve this problem without using th
 ### Merge Sort #1
 
 ```csharp
-public void SortColors(int[] nums)
-{
-    MergeSort(nums);
-}
-
-private void MergeSort(int[] array)
-{
-    int[] temp = new int[array.Length];
-    MergeSort(array, temp, 0, array.Length - 1);
-}
-
-private void MergeSort(int[] array, int[] temp, int left, int right)
-{
-    if (left >= right)
-        return;
-
-    var mid = left + (right - left) / 2;
-
-    MergeSort(array, temp, left, mid);
-    MergeSort(array, temp, mid + 1, right);
-
-    Merge(array, temp, left, mid, right);
-}
-
-private void Merge(int[] array, int[] temp, int left, int mid, int right)
-{
-    int i = left, j = mid + 1, k = left;
-
-    while (i <= mid && j <= right)
+public class Solution {
+    public void SortColors(int[] nums) 
     {
-        if (array[i] <= array[j])
-            temp[k++] = array[i++];
-        else
-            temp[k++] = array[j++];
+        var temp = new int[nums.Length];
+        MergeSort(nums, temp, 0, nums.Length-1);
     }
 
-    while (i <= mid)
-        temp[k++] = array[i++];
+    private void MergeSort(int[] arr, int[] tmp, int left, int right)
+    {
+        if(left >= right)
+            return;
 
-    while (j <= right)
-        temp[k++] = array[j++];
-        
-    for (var x = left; x <= right; x++)
-        array[x] = temp[x];
+        var mid = left + (right - left)/2;
+
+        MergeSort(arr, tmp, left, mid);
+        MergeSort(arr, tmp, mid + 1, right);
+
+        Merge(arr, tmp, left, mid, right);
+    }
+
+    private void Merge(int[] arr, int[] tmp, int left, int mid, int right)
+    {
+        var i = left;
+        var j = mid + 1;
+        var k = left;
+
+        while (i <= mid && j <= right)
+        {
+            if (arr[i] <= arr[j])
+            {
+                tmp[k] = arr[i];
+                k++;
+                i++;
+            }
+            else
+            {
+                tmp[k] = arr[j];
+                k++;
+                j++;
+            }
+        }
+
+        while (i <= mid)
+        {
+            tmp[k] = arr[i];
+            k++;
+            i++;
+        }
+
+        while (j <= right)
+        {
+            tmp[k] = arr[j];
+            k++;
+            j++;
+        }
+
+        for (i = left; i <= right; i++)
+        {
+            arr[i] = tmp[i];
+        }
+    }
 }
 ```
 
