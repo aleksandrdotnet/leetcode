@@ -169,6 +169,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1931_Painting_a_Grid_With_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3024_Type_of_Triangle", "_3024_Type_of_Triangle\_3024_Type_of_Triangle.csproj", "{AD789495-2304-4BF5-AF4D-90C7C0B04DF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3355_Zero_Array_Transformation_I", "_3355_Zero_Array_Transformation_I\_3355_Zero_Array_Transformation_I.csproj", "{BAA253DA-2C7F-4D20-A575-03EB779171E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -495,6 +497,10 @@ Global
 		{AD789495-2304-4BF5-AF4D-90C7C0B04DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD789495-2304-4BF5-AF4D-90C7C0B04DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD789495-2304-4BF5-AF4D-90C7C0B04DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA253DA-2C7F-4D20-A575-03EB779171E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA253DA-2C7F-4D20-A575-03EB779171E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA253DA-2C7F-4D20-A575-03EB779171E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA253DA-2C7F-4D20-A575-03EB779171E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
