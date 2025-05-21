@@ -171,6 +171,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3024_Type_of_Triangle", "_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3355_Zero_Array_Transformation_I", "_3355_Zero_Array_Transformation_I\_3355_Zero_Array_Transformation_I.csproj", "{BAA253DA-2C7F-4D20-A575-03EB779171E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_73_Set_Matrix_Zeroes", "_73_Set_Matrix_Zeroes\_73_Set_Matrix_Zeroes.csproj", "{2195B8CD-2EFE-4548-9688-7392E3A6A2A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -501,6 +503,10 @@ Global
 		{BAA253DA-2C7F-4D20-A575-03EB779171E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAA253DA-2C7F-4D20-A575-03EB779171E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAA253DA-2C7F-4D20-A575-03EB779171E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2195B8CD-2EFE-4548-9688-7392E3A6A2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2195B8CD-2EFE-4548-9688-7392E3A6A2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2195B8CD-2EFE-4548-9688-7392E3A6A2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2195B8CD-2EFE-4548-9688-7392E3A6A2A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
