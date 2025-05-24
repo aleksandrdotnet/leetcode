@@ -177,6 +177,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3362_Zero_Array_Transforma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3068_Find_the_Maximum_Sum_of_Node_Values", "_3068_Find_the_Maximum_Sum_of_Node_Values\_3068_Find_the_Maximum_Sum_of_Node_Values.csproj", "{AFD5DA40-CD76-47F2-8154-FA53F6A534C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2942_Find_Words_Containing_Character", "_2942_Find_Words_Containing_Character\_2942_Find_Words_Containing_Character.csproj", "{2C269751-5F13-4531-A066-D542D925C8E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -519,6 +521,10 @@ Global
 		{AFD5DA40-CD76-47F2-8154-FA53F6A534C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFD5DA40-CD76-47F2-8154-FA53F6A534C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFD5DA40-CD76-47F2-8154-FA53F6A534C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C269751-5F13-4531-A066-D542D925C8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C269751-5F13-4531-A066-D542D925C8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C269751-5F13-4531-A066-D542D925C8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C269751-5F13-4531-A066-D542D925C8E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
