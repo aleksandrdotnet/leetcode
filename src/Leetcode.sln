@@ -181,6 +181,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2942_Find_Words_Containing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2131_Longest_Palindrome_by_Concatenating_Two_Letter_Words", "_2131_Longest_Palindrome_by_Concatenating_Two_Letter_Words\_2131_Longest_Palindrome_by_Concatenating_Two_Letter_Words.csproj", "{1130D3E7-96F2-4591-B4CF-7D06A512FFAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1857_Largest_Color_Value_in_a_Directed_Graph", "_1857_Largest_Color_Value_in_a_Directed_Graph\_1857_Largest_Color_Value_in_a_Directed_Graph.csproj", "{434A2C67-6F6B-404E-B17D-B040CB90432E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -531,6 +533,10 @@ Global
 		{1130D3E7-96F2-4591-B4CF-7D06A512FFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1130D3E7-96F2-4591-B4CF-7D06A512FFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1130D3E7-96F2-4591-B4CF-7D06A512FFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434A2C67-6F6B-404E-B17D-B040CB90432E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434A2C67-6F6B-404E-B17D-B040CB90432E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434A2C67-6F6B-404E-B17D-B040CB90432E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434A2C67-6F6B-404E-B17D-B040CB90432E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
