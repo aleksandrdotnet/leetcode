@@ -183,6 +183,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2131_Longest_Palindrome_by
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1857_Largest_Color_Value_in_a_Directed_Graph", "_1857_Largest_Color_Value_in_a_Directed_Graph\_1857_Largest_Color_Value_in_a_Directed_Graph.csproj", "{434A2C67-6F6B-404E-B17D-B040CB90432E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2894_Divisible_and_Non_divisible_Sums_Difference", "_2894_Divisible_and_Non_divisible_Sums_Difference\_2894_Divisible_and_Non_divisible_Sums_Difference.csproj", "{7563C47D-CAEB-46D7-906E-F8759F511C57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -537,6 +539,10 @@ Global
 		{434A2C67-6F6B-404E-B17D-B040CB90432E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{434A2C67-6F6B-404E-B17D-B040CB90432E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{434A2C67-6F6B-404E-B17D-B040CB90432E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7563C47D-CAEB-46D7-906E-F8759F511C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7563C47D-CAEB-46D7-906E-F8759F511C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7563C47D-CAEB-46D7-906E-F8759F511C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7563C47D-CAEB-46D7-906E-F8759F511C57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
