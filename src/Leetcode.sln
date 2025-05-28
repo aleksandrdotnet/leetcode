@@ -185,6 +185,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1857_Largest_Color_Value_i
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2894_Divisible_and_Non_divisible_Sums_Difference", "_2894_Divisible_and_Non_divisible_Sums_Difference\_2894_Divisible_and_Non_divisible_Sums_Difference.csproj", "{7563C47D-CAEB-46D7-906E-F8759F511C57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3372_Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I", "_3372_Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I\_3372_Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.csproj", "{8442CA2E-92A2-4092-941D-57E65D62FDE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -543,6 +545,10 @@ Global
 		{7563C47D-CAEB-46D7-906E-F8759F511C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7563C47D-CAEB-46D7-906E-F8759F511C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7563C47D-CAEB-46D7-906E-F8759F511C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8442CA2E-92A2-4092-941D-57E65D62FDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8442CA2E-92A2-4092-941D-57E65D62FDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8442CA2E-92A2-4092-941D-57E65D62FDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8442CA2E-92A2-4092-941D-57E65D62FDE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
