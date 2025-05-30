@@ -5,12 +5,12 @@ public class Solution
     public long MaximumValueSum(int[] nums, int k, int[][] edges)
     {
         long totalSum = 0;
-        int xorBenefitCount = 0;
-        int minLoss = int.MaxValue;
+        var xorBenefitCount = 0;
+        var minLoss = int.MaxValue;
 
-        foreach (int num in nums)
+        foreach (var num in nums)
         {
-            int xorValue = num ^ k;
+            var xorValue = num ^ k;
             totalSum += Math.Max(num, xorValue);
 
             if (xorValue > num)
@@ -24,10 +24,7 @@ public class Solution
             }
         }
 
-        if (xorBenefitCount % 2 == 1)
-        {
-            totalSum -= minLoss;
-        }
+        if (xorBenefitCount % 2 == 1) totalSum -= minLoss;
 
         return totalSum;
     }
@@ -38,12 +35,12 @@ public class Solution2
     public long MaximumValueSum(int[] nums, int k, int[][] edges)
     {
         long sum = 0;
-        int minGain = int.MaxValue;
-        int minLoss = int.MaxValue;
-        bool evenGains = true;
-        foreach (int v in nums)
+        var minGain = int.MaxValue;
+        var minLoss = int.MaxValue;
+        var evenGains = true;
+        foreach (var v in nums)
         {
-            int xor = v ^ k;
+            var xor = v ^ k;
             if (xor > v)
             {
                 sum += xor;

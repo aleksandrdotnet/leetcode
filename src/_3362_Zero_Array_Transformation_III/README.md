@@ -22,6 +22,7 @@ Return the maximum number of elements that can be removed from queries, such tha
 ```
 
 ## Example 1
+
 ```
 Input: nums = [2,0,2], queries = [[0,2],[0,2],[1,1]]
 
@@ -36,6 +37,7 @@ Using queries[1], decrement nums[0] and nums[2] by 1 and nums[1] by 0.
 ```
 
 ## Example 2
+
 ```
 Input: nums = [1,1,1,1], queries = [[1,3],[0,2],[1,3],[1,2]]
 
@@ -47,6 +49,7 @@ We can remove queries[2] and queries[3]
 ```
 
 ## Example 3
+
 ```
 Input: nums = [1,2,3,4], queries = [[0,3]]
 
@@ -58,6 +61,7 @@ nums cannot be converted to a zero array even after using all the queries.
 ```
 
 ## Constraints
+
 ```
 1 <= nums.length <= 10^5
 0 <= nums[i] <= 10^5
@@ -67,10 +71,12 @@ queries[i].length == 2
 ```
 
 ## Code
+
 ```csharp
 
 ```
 
 ## Complexity
+
 > **Time complexity**: O()  
 > **Space complexity**: O()

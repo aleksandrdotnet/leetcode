@@ -12,7 +12,7 @@ public class Test
         var result = new Solution().LongestPalindrome(words);
         Assert.Equal(expected, result);
     }
-    
+
     [Theory]
     [InlineData(new[] { "lc", "cl", "gg" }, 6)]
     [InlineData(new[] { "ab", "ty", "yt", "lc", "cl", "ab" }, 8)]

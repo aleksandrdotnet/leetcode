@@ -47,7 +47,7 @@ public class Solution
     }
 }
 
-class Solution2
+internal class Solution2
 {
     public void SortColors(int[] nums)
     {
@@ -69,7 +69,7 @@ class Solution2
     }
 }
 
-class Solution3
+internal class Solution3
 {
     public void SortColors(int[] nums)
     {
@@ -79,12 +79,8 @@ class Solution3
     private void BubbleSort(int[] array)
     {
         for (var i = 0; i < array.Length; i++)
-        {
-            for (var j = i + 1; j < array.Length; j++)
-            {
-                if(array[i] > array[j])
-                    (array[i], array[j]) = (array[j], array[i]);
-            }
-        }
+        for (var j = i + 1; j < array.Length; j++)
+            if (array[i] > array[j])
+                (array[i], array[j]) = (array[j], array[i]);
     }
 }

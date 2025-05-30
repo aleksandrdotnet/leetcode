@@ -6,28 +6,28 @@ public class Solution
     public int LengthAfterTransformations(string s, int t, IList<int> nums)
     {
         const int mod = 1_000_000_007;
-        
+
         var chars = new int[26];
         foreach (var c in s)
             chars[c - 'a']++;
-        
+
         while (t-- > 0)
         {
             var newChars = new int[26];
             for (var i = 0; i < 26; i++)
             {
-                if(chars[i] == 0) continue;
-                
+                if (chars[i] == 0) continue;
+
                 for (var j = 0; j < nums[i]; j++)
                 {
                     var index = (i + j + 1) % 26;
                     newChars[index] = (newChars[index] + chars[i]) % mod;
                 }
             }
-            
+
             Array.Copy(newChars, 0, chars, 0, chars.Length);
         }
-        
+
         return chars.Aggregate(0, (current, n) => (current + n) % mod);
     }
 }
@@ -40,14 +40,14 @@ public class Solution2
     {
         var T = GetTransformationMatrix(nums);
         int[][] poweredT = MatrixPow(T, t);
-        int[] count = new int[26];
-        long[] lengths = new long[26];
+        var count = new int[26];
+        var lengths = new long[26];
 
-        foreach (char c in s)
+        foreach (var c in s)
             count[c - 'a']++;
 
-        for (int i = 0; i < 26; ++i)
-        for (int j = 0; j < 26; ++j)
+        for (var i = 0; i < 26; ++i)
+        for (var j = 0; j < 26; ++j)
         {
             lengths[j] += (long)count[i] * poweredT[i][j];
             lengths[j] %= MOD;
@@ -59,8 +59,8 @@ public class Solution2
     private int[][] GetTransformationMatrix(IList<int> nums)
     {
         var T = CreateMatrix(26, 26);
-        for (int i = 0; i < nums.Count; ++i)
-        for (int step = 1; step <= nums[i]; ++step)
+        for (var i = 0; i < nums.Count; ++i)
+        for (var step = 1; step <= nums[i]; ++step)
             T[i][(i + step) % 26]++;
         return T;
     }
@@ -68,18 +68,18 @@ public class Solution2
     private int[][] GetIdentityMatrix(int size)
     {
         int[][] I = CreateMatrix(size, size);
-        for (int i = 0; i < size; ++i)
+        for (var i = 0; i < size; ++i)
             I[i][i] = 1;
         return I;
     }
 
     private int[][] MatrixMult(int[][] A, int[][] B)
     {
-        int size = A.Length;
+        var size = A.Length;
         int[][] C = CreateMatrix(size, size);
-        for (int i = 0; i < size; ++i)
-        for (int j = 0; j < size; ++j)
-        for (int k = 0; k < size; ++k)
+        for (var i = 0; i < size; ++i)
+        for (var j = 0; j < size; ++j)
+        for (var k = 0; k < size; ++k)
             C[i][j] = (int)((C[i][j] + (long)A[i][k] * B[k][j]) % MOD);
         return C;
     }
@@ -96,7 +96,7 @@ public class Solution2
     private int[][] CreateMatrix(int rows, int cols)
     {
         int[][] matrix = new int[rows][];
-        for (int i = 0; i < rows; ++i)
+        for (var i = 0; i < rows; ++i)
             matrix[i] = new int[cols];
         return matrix;
     }

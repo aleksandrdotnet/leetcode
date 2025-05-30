@@ -22,7 +22,9 @@ Return the maximum possible sum of the values Alice can achieve by performing th
 ```
 
 ## Example 1
+
 ![png](Resources/3062_1.png)
+
 ```
 Input: nums = [1,2,1], k = 3, edges = [[0,1],[0,2]]
 Output: 6
@@ -33,7 +35,9 @@ It can be shown that 6 is the maximum achievable sum of values.
 ```
 
 ## Example 2
+
 ![png](Resources/3062_2.png)
+
 ```
 Input: nums = [2,3], k = 7, edges = [[0,1]]
 Output: 9
@@ -44,15 +48,17 @@ It can be shown that 9 is the maximum achievable sum of values.
 ```
 
 ## Example 3
+
 ![png](Resources/3062_3.png)
+
 ```
 Input: nums = [7,7,7,7,7,7], k = 3, edges = [[0,1],[0,2],[0,3],[0,4],[0,5]]
 Output: 42
 Explanation: The maximum achievable sum is 42 which can be achieved by Alice performing no operations.
 ```
 
-
 ## Constraints
+
 ```
 2 <= n == nums.length <= 2 * 10^4
 1 <= k <= 10^9
@@ -64,6 +70,7 @@ The input is generated such that edges represent a valid tree.
 ```
 
 ## Code
+
 ```csharp
 public class Solution
 {
@@ -130,5 +137,6 @@ public class Solution2
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(1)

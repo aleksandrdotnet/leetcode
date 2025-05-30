@@ -20,7 +20,9 @@ Note that queries are independent from each other. That is, for every query you 
 ```
 
 ## Example 1
+
 ![png](Resources/3373-1.png)
+
 ```
 Input: edges1 = [[0,1],[0,2],[2,3],[2,4]], edges2 = [[0,1],[0,2],[0,3],[2,7],[1,4],[4,5],[4,6]]
 
@@ -36,7 +38,9 @@ For i = 4, connect node 4 from the first tree to node 4 from the second tree.
 ```
 
 ## Example 2
+
 ![png](Resources/3373-2.png)
+
 ```
 Input: edges1 = [[0,1],[0,2],[0,3],[0,4]], edges2 = [[0,1],[1,2],[2,3]]
 
@@ -48,6 +52,7 @@ For every i, connect node i of the first tree with any node of the second tree.
 ```
 
 ## Constraints
+
 ```
 2 <= n, m <= 105
 edges1.length == n - 1
@@ -61,6 +66,7 @@ The input is generated such that edges1 and edges2 represent valid trees.
 ```
 
 ## Code
+
 ```csharp
 public class Solution
 {
@@ -165,5 +171,6 @@ public class Solution
 ```
 
 ## Complexity
+
 > **Time complexity**: O()  
 > **Space complexity**: O()

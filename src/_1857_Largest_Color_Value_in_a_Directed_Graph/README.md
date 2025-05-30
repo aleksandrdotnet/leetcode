@@ -21,7 +21,9 @@ Return the largest color value of any valid path in the given graph, or -1 if th
 ```
 
 ## Example 1
+
 ![png](Resources/1857_1.png)
+
 ```
 Input: colors = "abaca", edges = [[0,1],[0,2],[2,3],[3,4]]
 Output: 3
@@ -29,7 +31,9 @@ Explanation: The path 0 -> 2 -> 3 -> 4 contains 3 nodes that are colored "a" (re
 ```
 
 ## Example 2
+
 ![png](Resources/1857_2.png)
+
 ```
 Input: colors = "a", edges = [[0,0]]
 Output: -1
@@ -38,6 +42,7 @@ Explanation: There is a cycle from 0 to 0.
 ```
 
 ## Constraints
+
 ```
 n == colors.length
 m == edges.length
@@ -48,6 +53,7 @@ colors consists of lowercase English letters.
 ```
 
 ## Code
+
 ```csharp
 public int LargestPathValue(string colors, int[][] edges)
 {
@@ -112,5 +118,6 @@ public int LargestPathValue(string colors, int[][] edges)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(M + N)  
 > **Space complexity**: O(1)

@@ -22,6 +22,7 @@ Note: strings in words may be unequal in length.
 ```
 
 ## Example 1
+
 ```
 Input: words = ["bab","dab","cab"], groups = [1,2,2]
 
@@ -43,6 +44,7 @@ It can be shown that the length of the longest subsequence of indices that satis
 ```
 
 ## Example 2
+
 ```
 Input: words = ["a","b","c","d"], groups = [1,2,3,4]
 
@@ -60,6 +62,7 @@ Hence, it is the only answer.
 ```
 
 ## Constraints
+
 ```
 1 <= n == words.length == groups.length <= 1000
 1 <= words[i].length <= 10
@@ -69,10 +72,12 @@ words[i] consists of lowercase English letters.
 ```
 
 ## Code
+
 ```csharp
 
 ```
 
 ## Complexity
+
 > **Time complexity**: O()  
 > **Space complexity**: O()

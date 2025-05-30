@@ -16,7 +16,9 @@ Since the answer can be very large, return it modulo 10^9 + 7.
 ```
 
 ## Example 1
+
 ![png](Resources/1931_1.png)
+
 ```
 Input: m = 1, n = 1
 Output: 3
@@ -24,7 +26,9 @@ Explanation: The three possible colorings are shown in the image above.
 ```
 
 ## Example 2
+
 ![png](Resources/1931_2.png)
+
 ```
 Input: m = 1, n = 2
 Output: 6
@@ -32,22 +36,26 @@ Explanation: The six possible colorings are shown in the image above.
 ```
 
 ## Example 3
+
 ```
 Input: m = 5, n = 5
 Output: 580986
 ```
 
 ## Constraints
+
 ```
 1 <= m <= 5
 1 <= n <= 1000
 ```
 
 ## Code
+
 ```csharp
 
 ```
 
 ## Complexity
+
 > **Time complexity**: O()  
 > **Space complexity**: O()

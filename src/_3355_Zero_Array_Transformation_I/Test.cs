@@ -19,7 +19,7 @@ public class Test
         var result = new Solution().IsZeroArray([4, 3, 2, 1], q);
         Assert.Equal(expected, result);
     }
-    
+
     [Fact]
     public void Run21()
     {

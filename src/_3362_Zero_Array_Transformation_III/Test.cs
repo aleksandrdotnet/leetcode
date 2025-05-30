@@ -10,7 +10,7 @@ public class Test
         var result = new Solution().MaxRemoval([2, 0, 2], q);
         Assert.Equal(expected, result);
     }
-    
+
     [Fact]
     public void Run2()
     {
@@ -19,7 +19,7 @@ public class Test
         var result = new Solution().MaxRemoval([1, 1, 1, 1], q);
         Assert.Equal(expected, result);
     }
-    
+
     [Fact]
     public void Run3()
     {

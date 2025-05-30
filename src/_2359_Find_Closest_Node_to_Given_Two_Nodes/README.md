@@ -19,7 +19,9 @@ Note that edges may contain cycles.
 ```
 
 ## Example 1
+
 ![png](Resources/2359_1.png)
+
 ```
 Input: edges = [2,2,3,-1], node1 = 0, node2 = 1
 Output: 2
@@ -28,7 +30,9 @@ The maximum of those two distances is 1. It can be proven that we cannot get a n
 ```
 
 ## Example 2
+
 ![png](Resources/2359_2.png)
+
 ```
 Input: edges = [1,2,-1], node1 = 0, node2 = 2
 Output: 2
@@ -37,6 +41,7 @@ The maximum of those two distances is 2. It can be proven that we cannot get a n
 ```
 
 ## Constraints
+
 ```
 n == edges.length
 2 <= n <= 10^5
@@ -46,6 +51,7 @@ edges[i] != i
 ```
 
 ## Code
+
 ```csharp
 public int ClosestMeetingNode(int[] edges, int node1, int node2)
 {
@@ -107,5 +113,6 @@ private static int[] Bfs(int[] edges, int start)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(n)

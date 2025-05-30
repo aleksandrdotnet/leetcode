@@ -23,6 +23,7 @@ Note: The elements in words are distinct.
 ```
 
 ## Example 1
+
 ```
 Input: words = ["e","a","b"], groups = [0,0,1]
 
@@ -33,6 +34,7 @@ because groups[0] != groups[2]. Another subsequence that can be selected is ["a"
 ```
 
 ## Example 2
+
 ```
 Input: words = ["a","b","c","d"], groups = [1,0,1,1]
 
@@ -43,6 +45,7 @@ because groups[0] != groups[1] and groups[1] != groups[2]. Another subsequence t
 ```
 
 ## Constraints
+
 ```
 1 <= n == words.length == groups.length <= 100
 1 <= words[i].length <= 10
@@ -52,6 +55,7 @@ words[i] consists of lowercase English letters.
 ```
 
 ## Code
+
 ```csharp
 public IList<string> GetLongestSubsequence(string[] words, int[] groups)
 {
@@ -72,5 +76,6 @@ public IList<string> GetLongestSubsequence(string[] words, int[] groups)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(1)

@@ -7,16 +7,12 @@ public class Solution
         var result = new List<int>();
 
         for (var i = 0; i < words.Length; i++)
-        {
             foreach (var c in words[i])
-            {
                 if (c == x)
                 {
                     result.Add(i);
                     break;
                 }
-            }
-        }
 
         return result;
     }

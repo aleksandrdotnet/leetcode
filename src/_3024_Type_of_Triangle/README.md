@@ -17,6 +17,7 @@ Return a string representing the type of triangle that can be formed or "none" i
 ```
 
 ## Example 1
+
 ```
 Input: nums = [3,3,3]
 Output: "equilateral"
@@ -24,6 +25,7 @@ Explanation: Since all the sides are of equal length, therefore, it will form an
 ```
 
 ## Example 2
+
 ```
 Input: nums = [3,4,5]
 Output: "scalene"
@@ -36,16 +38,19 @@ As all the sides are of different lengths, it will form a scalene triangle.
 ```
 
 ## Constraints
+
 ```
 nums.length == 3
 1 <= nums[i] <= 100
 ```
 
 ## Code
+
 ```csharp
 
 ```
 
 ## Complexity
+
 > **Time complexity**: O()  
 > **Space complexity**: O()

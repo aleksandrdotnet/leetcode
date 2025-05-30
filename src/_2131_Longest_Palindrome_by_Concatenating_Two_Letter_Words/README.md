@@ -23,6 +23,7 @@ A palindrome is a string that reads the same forward and backward.
 ```
 
 ## Example 1
+
 ```
 Input: words = ["lc","cl","gg"]
 Output: 6
@@ -31,6 +32,7 @@ Note that "clgglc" is another longest palindrome that can be created.
 ```
 
 ## Example 2
+
 ```
 Input: words = ["ab","ty","yt","lc","cl","ab"]
 Output: 8
@@ -39,6 +41,7 @@ Note that "lcyttycl" is another longest palindrome that can be created.
 ```
 
 ## Example 3
+
 ```
 Input: words = ["cc","ll","xx"]
 Output: 2
@@ -47,6 +50,7 @@ Note that "ll" is another longest palindrome that can be created, and so is "xx"
 ```
 
 ## Constraints
+
 ```
 1 <= words.length <= 10^5
 words[i].length == 2
@@ -54,6 +58,7 @@ words[i] consists of lowercase English letters.
 ```
 
 ## Code
+
 ```csharp
 public class Solution
 {
@@ -93,5 +98,6 @@ public class Solution
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(1)

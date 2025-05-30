@@ -6,15 +6,12 @@ public class Solution
     {
         foreach (var arr in queries)
         {
-            for (var i = arr[0]; i <= arr[1]; i++)
-            {
-                nums[i]--;
-            }
-            
-            if(nums.All(x => x <= 0))
+            for (var i = arr[0]; i <= arr[1]; i++) nums[i]--;
+
+            if (nums.All(x => x <= 0))
                 return true;
         }
-        
+
         return false;
     }
 }

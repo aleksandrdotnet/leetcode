@@ -7,7 +7,7 @@ public class Solution
         var result = 0;
         var dict = new Dictionary<string, int>();
         var dictSame = new Dictionary<string, int>();
-        
+
         foreach (var word in words)
         {
             var isSame = word[0] == word[1];
@@ -17,7 +17,7 @@ public class Solution
                 if (dictSame.TryGetValue(word, out var count) && count > 0)
                 {
                     dictSame[word]--;
-                    result+=4;
+                    result += 4;
                 }
                 else
                 {
@@ -30,7 +30,7 @@ public class Solution
                 if (dict.TryGetValue(reversedWord, out var count) && count > 0)
                 {
                     dict[reversedWord]--;
-                    result+=4;
+                    result += 4;
                 }
                 else
                 {
@@ -39,11 +39,8 @@ public class Solution
             }
         }
 
-        if (result % 2 == 0)
-        {
-            result += dictSame.Values.Any(x => x > 0) ? 2 : 0;
-        }
-        
+        if (result % 2 == 0) result += dictSame.Values.Any(x => x > 0) ? 2 : 0;
+
         return result;
     }
 }
@@ -72,13 +69,9 @@ public class Solution2
         }
 
         if (result % 2 == 0)
-        {
             for (var i = 0; i < 26; i++)
-            {
                 if (freq[i, i] != 0)
                     return result + 2;
-            }
-        }
 
         return result;
     }

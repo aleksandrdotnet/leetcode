@@ -23,6 +23,7 @@ Since the answer may be very large, return it modulo 10^9 + 7.
 ```
 
 ## Example 1
+
 ```
 Input: s = "abcyy", t = 2
 
@@ -48,6 +49,7 @@ Final Length of the string: The string is "cdeabab", which has 7 characters.
 ```
 
 ## Example 2
+
 ```
 Input: s = "azbk", t = 1
 
@@ -65,6 +67,7 @@ Final Length of the string: The string is "babcl", which has 5 characters.
 ```
 
 ## Constraints
+
 ```
 1 <= s.length <= 10^5
 s consists only of lowercase English letters.
@@ -72,6 +75,7 @@ s consists only of lowercase English letters.
 ```
 
 ## Code
+
 ```csharp
 public int LengthAfterTransformations(string s, int t)
 {
@@ -102,5 +106,6 @@ public int LengthAfterTransformations(string s, int t)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(n)

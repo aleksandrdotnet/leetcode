@@ -15,6 +15,7 @@ Note that the returned array may be in any order.
 ```
 
 ## Example 1
+
 ```
 Input: words = ["leet","code"], x = "e"
 Output: [0,1]
@@ -22,6 +23,7 @@ Explanation: "e" occurs in both words: "leet", and "code". Hence, we return indi
 ```
 
 ## Example 2
+
 ```
 Input: words = ["abc","bcd","aaaa","cbc"], x = "a"
 Output: [0,2]
@@ -29,6 +31,7 @@ Explanation: "a" occurs in "abc", and "aaaa". Hence, we return indices 0 and 2.
 ```
 
 ## Example 3
+
 ```
 Input: words = ["abc","bcd","aaaa","cbc"], x = "z"
 Output: []
@@ -36,6 +39,7 @@ Explanation: "z" does not occur in any of the words. Hence, we return an empty a
 ```
 
 ## Constraints
+
 ```
 1 <= words.length <= 50
 1 <= words[i].length <= 50
@@ -44,6 +48,7 @@ words[i] consists only of lowercase English letters.
 ```
 
 ## Code
+
 ```csharp
 public IList<int> FindWordsContaining(string[] words, char x)
 {
@@ -66,5 +71,6 @@ public IList<int> FindWordsContaining(string[] words, char x)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(n)

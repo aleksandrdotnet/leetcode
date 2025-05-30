@@ -18,6 +18,7 @@ a Zero Array after processing all the queries sequentially, otherwise return fal
 ```
 
 ## Example 1
+
 ```
 Input: nums = [1,0,1], queries = [[0,2]]
 
@@ -31,6 +32,7 @@ The array will become [0, 0, 0], which is a Zero Array.
 ```
 
 ## Example 2
+
 ```
 Input: nums = [4,3,2,1], queries = [[1,3],[0,2]]
 
@@ -47,6 +49,7 @@ The array will become [3, 1, 0, 0], which is not a Zero Array.
 ```
 
 ## Constraints
+
 ```
 1 <= nums.length <= 10^5
 0 <= nums[i] <= 10^5
@@ -56,6 +59,7 @@ queries[i].length == 2
 ```
 
 ## Code
+
 ```csharp
 public bool IsZeroArray(int[] nums, int[][] queries)
 {
@@ -79,5 +83,6 @@ public bool IsZeroArray(int[] nums, int[][] queries)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n + q)
 > **Space complexity**: O(n)

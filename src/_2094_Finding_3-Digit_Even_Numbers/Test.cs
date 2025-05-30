@@ -11,7 +11,7 @@ public class Test
         var result = new Solution().FindEvenNumbers(digits);
         Assert.Equal(expected, result);
     }
-    
+
     [Theory]
     [InlineData(new[] { 2, 1, 3, 0 }, new[] { 102, 120, 130, 132, 210, 230, 302, 310, 312, 320 })]
     [InlineData(new[] { 2, 2, 8, 8, 2 }, new[] { 222, 228, 282, 288, 822, 828, 882 })]

@@ -26,6 +26,7 @@ Since the answer may be very large, return it modulo 10^9 + 7.
 ```
 
 ## Example 1
+
 ```
 Input: s = "abcyy", t = 2, nums = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2]
 
@@ -53,6 +54,7 @@ Final Length of the string: The string is "cdeabab", which has 7 characters.
 ```
 
 ## Example 2
+
 ```
 Input: s = "azbk", t = 1, nums = [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
 
@@ -71,6 +73,7 @@ Final Length of the string: The string is "bcabcdlm", which has 8 characters.
 ```
 
 ## Constraints
+
 ```
 1 <= s.length <= 10^5
 s consists only of lowercase English letters.
@@ -80,10 +83,12 @@ nums.length == 26
 ```
 
 ## Code
+
 ```csharp
 
 ```
 
 ## Complexity
+
 > **Time complexity**: O()  
 > **Space complexity**: O()

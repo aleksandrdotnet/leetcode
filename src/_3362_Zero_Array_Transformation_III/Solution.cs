@@ -6,8 +6,8 @@ public class Solution
     {
         Array.Sort(queries, (a, b) => a[0] - b[0]);
         var heap = new PriorityQueue<int, int>(Comparer<int>.Create((a, b) => b.CompareTo(a)));
-        int[] deltaArray = new int[nums.Length + 1];
-        int operations = 0;
+        var deltaArray = new int[nums.Length + 1];
+        var operations = 0;
 
         for (int i = 0, j = 0; i < nums.Length; i++)
         {
@@ -24,10 +24,7 @@ public class Solution
                 deltaArray[heap.Dequeue() + 1] -= 1;
             }
 
-            if (operations < nums[i])
-            {
-                return -1;
-            }
+            if (operations < nums[i]) return -1;
         }
 
         return heap.Count;
@@ -45,7 +42,7 @@ public class Solution
     private void MergeSort(int[][] nums)
     {
         var tmp = new int[nums.Length][];
-        
+
         MergeSortInternal(nums, tmp, 0, nums.Length - 1);
     }
 
@@ -53,11 +50,11 @@ public class Solution
     {
         if (left >= right)
             return;
-        
+
         var mid = left + (right - left) / 2;
         MergeSortInternal(nums, tmp, left, mid);
         MergeSortInternal(nums, tmp, mid + 1, right);
-        
+
         MergeInternal(nums, tmp, left, mid, right);
     }
 
@@ -99,9 +96,6 @@ public class Solution
             j++;
         }
 
-        for (i = left; i <= right; i++)
-        {
-            nums[i] = tmp[i];
-        }
+        for (i = left; i <= right; i++) nums[i] = tmp[i];
     }
 }

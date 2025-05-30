@@ -11,16 +11,12 @@ public class Solution
         var columns = new int[colLength];
 
         for (var i = 0; i < rowLength; i++)
-        {
-            for (var j = 0; j < colLength; j++)
+        for (var j = 0; j < colLength; j++)
+            if (matrix[i][j] == 0)
             {
-                if (matrix[i][j] == 0)
-                {
-                    rows[i] = 21052024;
-                    columns[j] = 21052024;
-                }
+                rows[i] = 21052024;
+                columns[j] = 21052024;
             }
-        }
 
         for (var i = 0; i < rowLength; i++)
         for (var j = 0; j < colLength; j++)

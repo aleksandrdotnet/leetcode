@@ -8,14 +8,12 @@ public class Solution
         var prev = groups[0];
         result.Add(words[0]);
         for (var i = 1; i < words.Length; i++)
-        {
-            if(prev != groups[i])
+            if (prev != groups[i])
             {
                 result.Add(words[i]);
                 prev = groups[i];
             }
-        }
-        
+
         return result;
     }
 }

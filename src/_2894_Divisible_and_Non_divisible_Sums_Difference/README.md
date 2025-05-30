@@ -16,6 +16,7 @@ Return the integer num1 - num2.
 ```
 
 ## Example 1
+
 ```
 Input: n = 10, m = 3
 Output: 19
@@ -26,6 +27,7 @@ We return 37 - 18 = 19 as the answer.
 ```
 
 ## Example 2
+
 ```
 Input: n = 5, m = 6
 Output: 15
@@ -36,6 +38,7 @@ We return 15 - 0 = 15 as the answer.
 ```
 
 ## Example 3
+
 ```
 Input: n = 5, m = 1
 Output: -15
@@ -46,11 +49,13 @@ We return 0 - 15 = -15 as the answer.
 ```
 
 ## Constraints
+
 ```
 1 <= n, m <= 1000
 ```
 
 ## Code
+
 ```csharp
 public int DifferenceOfSums(int n, int m)
 {
@@ -65,8 +70,10 @@ public int DifferenceOfSums(int n, int m)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(1)  
 > **Space complexity**: O(1)
 
 ## Follow up
+
 > ** n * (n + 1) / 2
