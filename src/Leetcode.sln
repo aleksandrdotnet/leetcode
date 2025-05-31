@@ -191,6 +191,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3373_Maximize_the_Number_o
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2359_Find_Closest_Node_to_Given_Two_Nodes", "_2359_Find_Closest_Node_to_Given_Two_Nodes\_2359_Find_Closest_Node_to_Given_Two_Nodes.csproj", "{5AEED968-AB81-4978-A990-5737D6665260}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_909_Snakes_and_Ladders", "_909_Snakes_and_Ladders\_909_Snakes_and_Ladders.csproj", "{F3E9FB35-D44D-4F4F-A3C8-6A40BE89582B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -561,6 +563,10 @@ Global
 		{5AEED968-AB81-4978-A990-5737D6665260}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AEED968-AB81-4978-A990-5737D6665260}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AEED968-AB81-4978-A990-5737D6665260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E9FB35-D44D-4F4F-A3C8-6A40BE89582B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E9FB35-D44D-4F4F-A3C8-6A40BE89582B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E9FB35-D44D-4F4F-A3C8-6A40BE89582B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E9FB35-D44D-4F4F-A3C8-6A40BE89582B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
