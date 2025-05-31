@@ -22,7 +22,7 @@ public class Solution
 
             rightToLeft = !rightToLeft;
         }
-        
+
         var result = BFS(flatBoard, 0);
         return result;
     }
@@ -34,23 +34,23 @@ public class Solution
 
         queue.Enqueue((start, 0));
         visited.Add(start);
-        
+
         while (queue.TryDequeue(out var item))
         {
             if (item.position >= board.Length - 1)
                 return item.step;
-            
+
             for (var dice = 1; dice <= 6; dice++)
             {
                 var next = item.position + dice;
                 if (next > board.Length - 1)
                     break;
-                
+
                 if (visited.Add(next))
                 {
                     if (board[next] != -1)
                         next = board[next] - 1;
-                    
+
                     queue.Enqueue((next, item.step + 1));
                 }
             }

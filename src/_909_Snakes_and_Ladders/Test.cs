@@ -24,11 +24,11 @@ public class Test
         var result = new Solution().SnakesAndLadders(board);
         Assert.Equal(expected, result);
     }
-    
+
     [Fact]
     public void Run3()
     {
-        int[][] board = [[-1,-1],[-1,1]];
+        int[][] board = [[-1, -1], [-1, 1]];
         var expected = 1;
         var result = new Solution().SnakesAndLadders(board);
         Assert.Equal(expected, result);
@@ -45,19 +45,19 @@ public class Test
         var result = new Solution().SnakesAndLadders(board);
         Assert.Equal(expected, result);
     }
-    
+
     //  1  1 -1 
     //  1  1  1
     // -1  1  1
     [Fact]
     public void Run5()
     {
-        int[][] board = [[1,1,-1],[1,1,1],[-1,1,1]];
+        int[][] board = [[1, 1, -1], [1, 1, 1], [-1, 1, 1]];
         var expected = -1;
         var result = new Solution().SnakesAndLadders(board);
         Assert.Equal(expected, result);
     }
-    
+
     // 16 11  6 13      00 01 02 03
     //  9 15 16 12      10 11 12 13
     //  8  7  6  8  ->  20 21 22 23

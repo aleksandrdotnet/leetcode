@@ -2,7 +2,7 @@
 
 ![Complexity](https://img.shields.io/badge/medium-yellow)
 ![Topics](https://img.shields.io/badge/array-blue)
-![Topics](https://img.shields.io/badge/breadth_firest_search-blue)
+![Topics](https://img.shields.io/badge/breadth_first_search-blue)
 ![Topics](https://img.shields.io/badge/matrix-blue)
 
 [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/description/?envType=daily-question&envId=2025-05-31)
@@ -25,7 +25,9 @@ Return the least number of dice rolls required to reach the square n2. If it is 
 ```
 
 ## Example 1
+
 ![png](Resources/909_1.png)
+
 ```
 Input: board = [[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,35,-1,-1,13,-1],[-1,-1,-1,-1,-1,-1],[-1,15,-1,-1,-1,-1]]
 Output: 4
@@ -39,12 +41,14 @@ This is the lowest possible number of moves to reach the last square, so return 
 ```
 
 ## Example 2
+
 ```
 Input: board = [[-1,-1],[-1,3]]
 Output: 1
 ```
 
 ## Constraints
+
 ```
 n == board.length == board[i].length
 2 <= n <= 20
@@ -53,6 +57,7 @@ The squares labeled 1 and n2 are not the starting points of any snake or ladder.
 ```
 
 ## Code
+
 ```csharp
 public int SnakesAndLadders(int[][] board)
 {
@@ -113,5 +118,6 @@ private int BFS(int[] board, int start)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n^2)  
 > **Space complexity**: O(n^2)
