@@ -1,44 +1,32 @@
-# 1251. Average Selling Price
+# 1193. Monthly Transactions I
 
-![Complexity](https://img.shields.io/badge/easy-green)
+![Complexity](https://img.shields.io/badge/medium-yellow)
 ![Topics](https://img.shields.io/badge/database-blue)
 
-[1251. Average Selling Price](https://leetcode.com/problems/average-selling-price/description/)
+[1193. Monthly Transactions I](https://leetcode.com/problems/average-selling-price/description/)
 
 ```
-Table: Prices
+Table: Transactions
 
 +---------------+---------+
 | Column Name   | Type    |
 +---------------+---------+
-| product_id    | int     |
-| start_date    | date    |
-| end_date      | date    |
-| price         | int     |
+| id            | int     |
+| country       | varchar |
+| state         | enum    |
+| amount        | int     |
+| trans_date    | date    |
 +---------------+---------+
-(product_id, start_date, end_date) is the primary key (combination of columns with unique values) for this table.
-Each row of this table indicates the price of the product_id in the period from start_date to end_date.
-For each product_id there will be no two overlapping periods. That means there will be no two intersecting periods for the same product_id.
+id is the primary key of this table.
+The table has information about incoming transactions.
+The state column is an enum of type ["approved", "declined"].
  
 
-Table: UnitsSold
-
-+---------------+---------+
-| Column Name   | Type    |
-+---------------+---------+
-| product_id    | int     |
-| purchase_date | date    |
-| units         | int     |
-+---------------+---------+
-This table may contain duplicate rows.
-Each row of this table indicates the date, units, and product_id of each product sold. 
- 
-
-Write a solution to find the average selling price for each product. average_price should be rounded to 2 decimal places. If a product does not have any sold units, its average selling price is assumed to be 0.
+Write an SQL query to find for each month and country, the number of transactions and their total amount, the number of approved transactions and their total amount.
 
 Return the result table in any order.
 
-The result format is in the following example.
+The query result format is in the following example.
 ```
 
 ## Example 1
@@ -47,56 +35,43 @@ The result format is in the following example.
 Example 1:
 
 Input: 
-Prices table:
-+------------+------------+------------+--------+
-| product_id | start_date | end_date   | price  |
-+------------+------------+------------+--------+
-| 1          | 2019-02-17 | 2019-02-28 | 5      |
-| 1          | 2019-03-01 | 2019-03-22 | 20     |
-| 2          | 2019-02-01 | 2019-02-20 | 15     |
-| 2          | 2019-02-21 | 2019-03-31 | 30     |
-+------------+------------+------------+--------+
-UnitsSold table:
-+------------+---------------+-------+
-| product_id | purchase_date | units |
-+------------+---------------+-------+
-| 1          | 2019-02-25    | 100   |
-| 1          | 2019-03-01    | 15    |
-| 2          | 2019-02-10    | 200   |
-| 2          | 2019-03-22    | 30    |
-+------------+---------------+-------+
+Transactions table:
++------+---------+----------+--------+------------+
+| id   | country | state    | amount | trans_date |
++------+---------+----------+--------+------------+
+| 121  | US      | approved | 1000   | 2018-12-18 |
+| 122  | US      | declined | 2000   | 2018-12-19 |
+| 123  | US      | approved | 2000   | 2019-01-01 |
+| 124  | DE      | approved | 2000   | 2019-01-07 |
++------+---------+----------+--------+------------+
 Output: 
-+------------+---------------+
-| product_id | average_price |
-+------------+---------------+
-| 1          | 6.96          |
-| 2          | 16.96         |
-+------------+---------------+
-Explanation: 
-Average selling price = Total Price of Product / Number of products sold.
-Average selling price for product 1 = ((100 * 5) + (15 * 20)) / 115 = 6.96
-Average selling price for product 2 = ((200 * 15) + (30 * 30)) / 230 = 16.96
++----------+---------+-------------+----------------+--------------------+-----------------------+
+| month    | country | trans_count | approved_count | trans_total_amount | approved_total_amount |
++----------+---------+-------------+----------------+--------------------+-----------------------+
+| 2018-12  | US      | 2           | 1              | 3000               | 1000                  |
+| 2019-01  | US      | 1           | 1              | 2000               | 2000                  |
+| 2019-01  | DE      | 1           | 1              | 2000               | 2000                  |
++----------+---------+-------------+----------------+--------------------+-----------------------+
 ```
 
 ## Code
 
 ```tsql
+/* Write your T-SQL query statement below */
 select
-    p.product_id,
-    case
-        when sum(us.units) is null then 0
-        else round(sum(p.price * us.units) * 1.0 / sum(us.units), 2)
-        end
-        [average_price]
+    FORMAT(t1.trans_date, 'yyyy-MM') [month],
+    t1.country,
+    count(1) [trans_count],
+    sum(iif(t1.state = 'approved', 1, 0)) [approved_count],
+    sum(ISNULL(t1.amount, 0)) [trans_total_amount],
+    sum(iif(t1.state = 'approved', ISNULL(t1.amount, 0), 0)) [approved_total_amount]
 from
-    Prices p
-        left join UnitsSold us on p.product_id = us.product_id
-        and us.purchase_date >= p.start_date and us.purchase_date <= p.end_date
+    Transactions t1
 group by
-    p.product_id
+    FORMAT(t1.trans_date, 'yyyy-MM'), t1.country
 ```
 
 ## Complexity
 
-> **Time complexity**: O(n+m)  
-> **Space complexity**: O(n+m)
+> **Time complexity**: O(n)  
+> **Space complexity**: O(n)
