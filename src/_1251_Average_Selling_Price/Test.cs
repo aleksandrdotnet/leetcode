@@ -37,19 +37,20 @@ group by
         };
 
         Assert.Equal(expected.Count, result.Count);
-        foreach (var exp in expected) Assert.Contains(result, r => r.ProductId == exp.ProductId 
-                                                                   && r.AveragePrice == exp.AveragePrice);
+        foreach (var exp in expected)
+            Assert.Contains(result, r => r.ProductId == exp.ProductId
+                                         && r.AveragePrice == exp.AveragePrice);
     }
 
     public class Result
     {
-        public int ProductId { get; set; }
-        public double AveragePrice { get; set; }
-
         public Result(int productId, double averagePrice)
         {
             ProductId = productId;
             AveragePrice = averagePrice;
         }
+
+        public int ProductId { get; set; }
+        public double AveragePrice { get; set; }
     }
 }

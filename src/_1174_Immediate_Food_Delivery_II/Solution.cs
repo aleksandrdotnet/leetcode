@@ -35,13 +35,41 @@ public class Solution
                 entity.Property(e => e.CustomerPrefDeliveryDate).HasColumnName("customer_pref_delivery_date");
 
                 entity.HasData(
-                    new Delivery { Id = 1, CustomerId = 1, OrderDate = new DateTime(2019, 8, 1), CustomerPrefDeliveryDate = new DateTime(2019, 8, 2) },
-                    new Delivery { Id = 2, CustomerId = 2, OrderDate = new DateTime(2019, 8, 2), CustomerPrefDeliveryDate = new DateTime(2019, 8, 2) },
-                    new Delivery { Id = 3, CustomerId = 1, OrderDate = new DateTime(2019, 8, 11), CustomerPrefDeliveryDate = new DateTime(2019, 8, 12) },
-                    new Delivery { Id = 4, CustomerId = 3, OrderDate = new DateTime(2019, 8, 24), CustomerPrefDeliveryDate = new DateTime(2019, 8, 24) },
-                    new Delivery { Id = 5, CustomerId = 3, OrderDate = new DateTime(2019, 8, 21), CustomerPrefDeliveryDate = new DateTime(2019, 8, 22) },
-                    new Delivery { Id = 6, CustomerId = 2, OrderDate = new DateTime(2019, 8, 11), CustomerPrefDeliveryDate = new DateTime(2019, 8, 13) },
-                    new Delivery { Id = 7, CustomerId = 4, OrderDate = new DateTime(2019, 8, 9), CustomerPrefDeliveryDate = new DateTime(2019, 8, 9) }
+                    new Delivery
+                    {
+                        Id = 1, CustomerId = 1, OrderDate = new DateTime(2019, 8, 1),
+                        CustomerPrefDeliveryDate = new DateTime(2019, 8, 2)
+                    },
+                    new Delivery
+                    {
+                        Id = 2, CustomerId = 2, OrderDate = new DateTime(2019, 8, 2),
+                        CustomerPrefDeliveryDate = new DateTime(2019, 8, 2)
+                    },
+                    new Delivery
+                    {
+                        Id = 3, CustomerId = 1, OrderDate = new DateTime(2019, 8, 11),
+                        CustomerPrefDeliveryDate = new DateTime(2019, 8, 12)
+                    },
+                    new Delivery
+                    {
+                        Id = 4, CustomerId = 3, OrderDate = new DateTime(2019, 8, 24),
+                        CustomerPrefDeliveryDate = new DateTime(2019, 8, 24)
+                    },
+                    new Delivery
+                    {
+                        Id = 5, CustomerId = 3, OrderDate = new DateTime(2019, 8, 21),
+                        CustomerPrefDeliveryDate = new DateTime(2019, 8, 22)
+                    },
+                    new Delivery
+                    {
+                        Id = 6, CustomerId = 2, OrderDate = new DateTime(2019, 8, 11),
+                        CustomerPrefDeliveryDate = new DateTime(2019, 8, 13)
+                    },
+                    new Delivery
+                    {
+                        Id = 7, CustomerId = 4, OrderDate = new DateTime(2019, 8, 9),
+                        CustomerPrefDeliveryDate = new DateTime(2019, 8, 9)
+                    }
                 );
             });
         }

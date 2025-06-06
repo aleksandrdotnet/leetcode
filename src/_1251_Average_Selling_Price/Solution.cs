@@ -45,10 +45,26 @@ public class Solution
                 entity.Property(e => e.PriceAmount).HasColumnName("price");
 
                 entity.HasData(
-                    new Price { Id = 1, ProductId = 1, StartDate = DateTime.Parse("2019-02-17"), EndDate = DateTime.Parse("2019-02-28"), PriceAmount = 5 },
-                    new Price { Id = 2, ProductId = 1, StartDate = DateTime.Parse("2019-03-01"), EndDate = DateTime.Parse("2019-03-22"), PriceAmount = 20 },
-                    new Price { Id = 3, ProductId = 2, StartDate = DateTime.Parse("2019-02-01"), EndDate = DateTime.Parse("2019-02-20"), PriceAmount = 15 },
-                    new Price { Id = 4, ProductId = 2, StartDate = DateTime.Parse("2019-02-21"), EndDate = DateTime.Parse("2019-03-31"), PriceAmount = 30 }
+                    new Price
+                    {
+                        Id = 1, ProductId = 1, StartDate = DateTime.Parse("2019-02-17"),
+                        EndDate = DateTime.Parse("2019-02-28"), PriceAmount = 5
+                    },
+                    new Price
+                    {
+                        Id = 2, ProductId = 1, StartDate = DateTime.Parse("2019-03-01"),
+                        EndDate = DateTime.Parse("2019-03-22"), PriceAmount = 20
+                    },
+                    new Price
+                    {
+                        Id = 3, ProductId = 2, StartDate = DateTime.Parse("2019-02-01"),
+                        EndDate = DateTime.Parse("2019-02-20"), PriceAmount = 15
+                    },
+                    new Price
+                    {
+                        Id = 4, ProductId = 2, StartDate = DateTime.Parse("2019-02-21"),
+                        EndDate = DateTime.Parse("2019-03-31"), PriceAmount = 30
+                    }
                 );
             });
 

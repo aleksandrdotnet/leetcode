@@ -38,7 +38,7 @@ WHERE
 
         var expected = new List<Result>
         {
-            new (50.0f)
+            new(50.0f)
         };
 
         Assert.Equal(expected.Count, result.Count);
@@ -47,15 +47,15 @@ WHERE
 
     public class Result
     {
-        public float immediate_percentage { get; set; }
-
         public Result()
         {
-            
         }
+
         public Result(float immediatePercentage)
         {
             immediate_percentage = immediatePercentage;
         }
+
+        public float immediate_percentage { get; set; }
     }
 }

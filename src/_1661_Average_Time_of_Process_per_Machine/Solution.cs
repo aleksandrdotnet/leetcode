@@ -1,4 +1,3 @@
-using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -6,7 +5,6 @@ namespace _1661_Average_Time_of_Process_per_Machine;
 
 public class Solution
 {
-
     public class Activity
     {
         public int machine_id { get; set; }
@@ -24,7 +22,11 @@ public class Solution
         {
             builder.ToTable("Activity");
 
-            builder.HasKey(a => new { MachineId = a.machine_id, ProcessId = a.process_id, ActivityType = a.activity_type, Timestamp = a.timestamp });
+            builder.HasKey(a => new
+            {
+                MachineId = a.machine_id, ProcessId = a.process_id, ActivityType = a.activity_type,
+                Timestamp = a.timestamp
+            });
 
             builder.Property(a => a.activity_type)
                 .HasConversion<string>() // enum → string
@@ -34,10 +36,9 @@ public class Solution
                 .IsRequired();
         }
     }
-    
+
     public class AppDbContext : DbContext
     {
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("DataSource=:memory:");

@@ -17,6 +17,7 @@ Return the minimum number of candies you need to have to distribute the candies 
 ```
 
 ## Example 1
+
 ```
 Input: ratings = [1,0,2]
 Output: 5
@@ -24,6 +25,7 @@ Explanation: You can allocate to the first, second and third child with 2, 1, 2 
 ```
 
 ## Example 2
+
 ```
 Input: ratings = [1,2,2]
 Output: 4
@@ -32,6 +34,7 @@ The third child gets 1 candy because it satisfies the above two conditions.
 ```
 
 ## Constraints
+
 ```
 n == ratings.length
 1 <= n <= 2 * 104
@@ -39,6 +42,7 @@ n == ratings.length
 ```
 
 ## Code
+
 ```csharp
 public int Candy(int[] ratings) {
     int n = ratings.Length;
@@ -67,5 +71,6 @@ public int Candy(int[] ratings) {
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(n)

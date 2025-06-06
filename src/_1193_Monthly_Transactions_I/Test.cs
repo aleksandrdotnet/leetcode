@@ -29,33 +29,26 @@ GROUP BY
     strftime('%Y-%m', t1.trans_date), t1.country;
 ")
             .ToList();
-        
+
         var expected = new List<Result>
         {
-            new("2018-12", "US",2,1,3000,1000),
-            new("2019-01", "US",1,1,2000,2000),
-            new("2019-01", "DE",1,1,2000,2000)
+            new("2018-12", "US", 2, 1, 3000, 1000),
+            new("2019-01", "US", 1, 1, 2000, 2000),
+            new("2019-01", "DE", 1, 1, 2000, 2000)
         };
 
         Assert.Equal(expected.Count, result.Count);
         result.Should().BeEquivalentTo(expected);
     }
-    
+
     public class Result
     {
-        public string month { get; set; }
-        public string country { get; set; }
-        public int trans_count { get; set; }
-        public int approved_count { get; set; }
-        public int trans_total_amount { get; set; }
-        public int approved_total_amount { get; set; }
-
         public Result()
         {
-            
         }
-        
-        public Result(string month, string country, int transCount, int approvedCount, int transTotalAmount, int approvedTotalAmount)
+
+        public Result(string month, string country, int transCount, int approvedCount, int transTotalAmount,
+            int approvedTotalAmount)
         {
             this.month = month;
             this.country = country;
@@ -64,5 +57,12 @@ GROUP BY
             trans_total_amount = transTotalAmount;
             approved_total_amount = approvedTotalAmount;
         }
+
+        public string month { get; set; }
+        public string country { get; set; }
+        public int trans_count { get; set; }
+        public int approved_count { get; set; }
+        public int trans_total_amount { get; set; }
+        public int approved_total_amount { get; set; }
     }
 }

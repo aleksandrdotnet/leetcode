@@ -38,7 +38,8 @@ group by
         };
 
         Assert.Equal(expected.Count, result.Count);
-        foreach (var exp in expected) Assert.Contains(result, r => r.machine_id == exp.machine_id && r.processing_time == exp.processing_time);
+        foreach (var exp in expected)
+            Assert.Contains(result, r => r.machine_id == exp.machine_id && r.processing_time == exp.processing_time);
     }
 
     public class Result

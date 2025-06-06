@@ -1,6 +1,6 @@
 # 1174. Immediate Food Delivery II
 
-![Complexity](https://img.shields.io/badge/easy-green)
+![Complexity](https://img.shields.io/badge/medium-yellow)
 ![Topics](https://img.shields.io/badge/database-blue)
 
 [1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/description/?envType=study-plan-v2&envId=top-sql-50)
