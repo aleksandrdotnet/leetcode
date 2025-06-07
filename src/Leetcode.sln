@@ -205,6 +205,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1193_Monthly_Transactions_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1174_Immediate_Food_Delivery_II", "_1174_Immediate_Food_Delivery_II\_1174_Immediate_Food_Delivery_II.csproj", "{9137124D-EDED-489F-92D2-85C7F5E211B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher", "_2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher\_2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher.csproj", "{5D3FD490-1B28-456A-B5B8-E9A4E3473D9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -603,6 +605,10 @@ Global
 		{9137124D-EDED-489F-92D2-85C7F5E211B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9137124D-EDED-489F-92D2-85C7F5E211B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9137124D-EDED-489F-92D2-85C7F5E211B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3FD490-1B28-456A-B5B8-E9A4E3473D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3FD490-1B28-456A-B5B8-E9A4E3473D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3FD490-1B28-456A-B5B8-E9A4E3473D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3FD490-1B28-456A-B5B8-E9A4E3473D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
@@ -619,5 +625,6 @@ Global
 		{9ADD2DEC-1510-4D3D-B00D-606651869E94} = {79A1FF8B-8421-4DE8-B26B-CA7966BF5865}
 		{5C2F3212-C9EF-4C76-935B-64A99030B180} = {79A1FF8B-8421-4DE8-B26B-CA7966BF5865}
 		{9137124D-EDED-489F-92D2-85C7F5E211B4} = {79A1FF8B-8421-4DE8-B26B-CA7966BF5865}
+		{5D3FD490-1B28-456A-B5B8-E9A4E3473D9B} = {79A1FF8B-8421-4DE8-B26B-CA7966BF5865}
 	EndGlobalSection
 EndGlobal
