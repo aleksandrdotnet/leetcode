@@ -27,7 +27,7 @@ public class Solution
             modelBuilder.Entity<Teacher>(entity =>
             {
                 entity.ToTable("Teacher");
-                entity.HasKey(x=>new {x.TeacherId, x.SubjectId, x.DeptId});
+                entity.HasKey(x => new { x.TeacherId, x.SubjectId, x.DeptId });
 
                 entity.Property(e => e.TeacherId).HasColumnName("teacher_id");
                 entity.Property(e => e.SubjectId).HasColumnName("subject_id");

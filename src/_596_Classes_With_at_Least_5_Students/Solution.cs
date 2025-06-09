@@ -1,4 +1,3 @@
-using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 
 namespace _596_Classes_With_at_Least_5_Students;
@@ -39,7 +38,7 @@ public class Solution
             });
         }
     }
-    
+
     public class Course
     {
         public string Student { get; set; } = null!;

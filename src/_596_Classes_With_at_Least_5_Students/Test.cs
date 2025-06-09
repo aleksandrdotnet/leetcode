@@ -37,16 +37,15 @@ having count(1) >= 5
 
     public class Result
     {
-        public string Class { get; set; }
-
         public Result()
         {
-            
         }
 
         public Result(string @class)
         {
             Class = @class;
         }
+
+        public string Class { get; set; }
     }
 }
