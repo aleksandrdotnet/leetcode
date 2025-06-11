@@ -43,29 +43,29 @@ having
 
         var expected = new List<Result>
         {
-            new(1,1),
-            new(2,1),
-            new(3,3),
-            new(4,3)
+            new(1, 1),
+            new(2, 1),
+            new(3, 3),
+            new(4, 3)
         };
 
         Assert.Equal(expected.Count, result.Count);
         expected.Should().BeEquivalentTo(result);
     }
-    
+
     public class Result
     {
-        public int employee_id { get; set; }
-        public int department_id { get; set; }
-
         public Result()
         {
-            
         }
+
         public Result(int employeeId, int departmentId)
         {
             employee_id = employeeId;
             department_id = departmentId;
         }
+
+        public int employee_id { get; set; }
+        public int department_id { get; set; }
     }
 }

@@ -9,7 +9,7 @@ public class Solution
         Y,
         N
     }
-    
+
     public class Employee
     {
         public int Id { get; set; } // требуется PK для EF Core
@@ -17,7 +17,7 @@ public class Solution
         public int DepartmentId { get; set; }
         public PrimaryFlag PrimaryFlag { get; set; }
     }
-    
+
     public class AppDbContext : DbContext
     {
         public DbSet<Employee> Employees { get; set; }
@@ -41,7 +41,7 @@ public class Solution
 
                 entity.Property(e => e.PrimaryFlag)
                     .HasColumnName("primary_flag")
-                    .HasConversion<string>()  // enum -> 'Y' / 'N'
+                    .HasConversion<string>() // enum -> 'Y' / 'N'
                     .HasMaxLength(1);
 
                 entity.HasData(
