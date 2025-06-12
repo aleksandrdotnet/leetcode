@@ -52,6 +52,7 @@ from
         {
             Num = num;
         }
+
         public int Num { get; set; }
     }
 }

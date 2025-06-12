@@ -7,7 +7,7 @@ public class Solution
     public class AppDbContext : DbContext
     {
         public DbSet<MyNumber> MyNumbers { get; set; }
-        
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseInMemoryDatabase("TestDb");
