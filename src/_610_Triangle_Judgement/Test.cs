@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 
-namespace _596_Classes_With_at_Least_5_Students;
+namespace _610_Triangle_Judgement;
 
 public class Test
 {
@@ -16,19 +16,23 @@ public class Test
 
         var result = context.Database.SqlQuery<Result>($@"
 select
-    c.class []
+    x,
+    y,
+    z,
+    case 
+        when x + y > z and x + z > y and y + z > x then 'Yes'
+        else 'No'
+    end [triangle]
 from
-    Courses c
-group by
-    c.class
-having count(1) >= 5
-                             ")
+    Triangle
+")
             .ToList();
 
 
         var expected = new List<Result>
         {
-            new("Math")
+            new(13, 15, 30, "No"),
+            new(10, 20, 15, "Yes"),
         };
 
         Assert.Equal(expected.Count, result.Count());
@@ -41,11 +45,17 @@ having count(1) >= 5
         {
         }
 
-        public Result(string @class)
+        public Result(int x, int y, int z, string triangle)
         {
-            Class = @class;
+            this.x = x;
+            this.y = y;
+            this.z = z;
+            this.triangle = triangle;
         }
 
-        public string Class { get; set; }
+        public int x { get; set; }
+        public int y { get; set; }
+        public int z { get; set; }
+        public string triangle { get; set; }
     }
 }

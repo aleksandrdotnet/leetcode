@@ -1,12 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace _596_Classes_With_at_Least_5_Students;
+namespace _610_Triangle_Judgement;
 
 public class Solution
 {
     public class AppDbContext : DbContext
     {
-        public DbSet<Course> Courses { get; set; }
+        public DbSet<Triangle> Triangles { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -16,32 +16,29 @@ public class Solution
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Course>(entity =>
+            modelBuilder.Entity<Triangle>(entity =>
             {
-                entity.ToTable("Courses");
-                entity.HasKey(x => new { x.Student, x.Class });
+                entity.ToTable("Triangle");
+                entity.HasKey(e => e.Id);
 
-                entity.Property(e => e.Student).HasColumnName("student").HasMaxLength(255);
-                entity.Property(e => e.Class).HasColumnName("class").HasMaxLength(255);
+                entity.Property(e => e.Id).HasColumnName("id");
+                entity.Property(e => e.X).HasColumnName("x");
+                entity.Property(e => e.Y).HasColumnName("y");
+                entity.Property(e => e.Z).HasColumnName("z");
 
                 entity.HasData(
-                    new Course { Student = "A", Class = "Math" },
-                    new Course { Student = "B", Class = "English" },
-                    new Course { Student = "C", Class = "Math" },
-                    new Course { Student = "D", Class = "Biology" },
-                    new Course { Student = "E", Class = "Math" },
-                    new Course { Student = "F", Class = "Computer" },
-                    new Course { Student = "G", Class = "Math" },
-                    new Course { Student = "H", Class = "Math" },
-                    new Course { Student = "I", Class = "Math" }
+                    new Triangle { Id = 1, X = 13, Y = 15, Z = 30 },
+                    new Triangle { Id = 2, X = 10, Y = 20, Z = 15 }
                 );
             });
         }
     }
 
-    public class Course
+    public class Triangle
     {
-        public string Student { get; set; } = null!;
-        public string Class { get; set; } = null!;
+        public int Id { get; set; } // нужен PK для EF Core + SQLite
+        public int X { get; set; }
+        public int Y { get; set; }
+        public int Z { get; set; }
     }
 }
