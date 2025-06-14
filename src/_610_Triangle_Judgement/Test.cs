@@ -32,7 +32,7 @@ from
         var expected = new List<Result>
         {
             new(13, 15, 30, "No"),
-            new(10, 20, 15, "Yes"),
+            new(10, 20, 15, "Yes")
         };
 
         Assert.Equal(expected.Count, result.Count());
