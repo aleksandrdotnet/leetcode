@@ -28,7 +28,8 @@ public class Solution
 
                 entity.HasData(
                     new Triangle { Id = 1, X = 13, Y = 15, Z = 30 },
-                    new Triangle { Id = 2, X = 10, Y = 20, Z = 15 }
+                    new Triangle { Id = 2, X = 10, Y = 20, Z = 15 },
+                    new Triangle { Id = 3, X = 40, Y = 20, Z = 15 }
                 );
             });
         }
