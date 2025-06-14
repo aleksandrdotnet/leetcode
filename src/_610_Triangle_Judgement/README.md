@@ -1,76 +1,67 @@
-# 596. Classes With at Least 5 Students
+# 610. Triangle Judgement
 
 ![Complexity](https://img.shields.io/badge/easy-green)
 ![Topics](https://img.shields.io/badge/database-blue)
 
-[596. Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/description/?envType=study-plan-v2&envId=top-sql-50)
+[610. Triangle Judgement](https://leetcode.com/problems/triangle-judgement/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ```
-Table: Courses
+Table: Triangle
 
-+-------------+---------+
-| Column Name | Type    |
-+-------------+---------+
-| student     | varchar |
-| class       | varchar |
-+-------------+---------+
-(student, class) is the primary key (combination of columns with unique values) for this table.
-Each row of this table indicates the name of a student and the class in which they are enrolled.
++-------------+------+
+| Column Name | Type |
++-------------+------+
+| x           | int  |
+| y           | int  |
+| z           | int  |
++-------------+------+
+In SQL, (x, y, z) is the primary key column for this table.
+Each row of this table contains the lengths of three line segments.
  
 
-Write a solution to find all the classes that have at least five students.
+Report for every three line segments whether they can form a triangle.
 
 Return the result table in any order.
 
 The result format is in the following example.
 ```
 
-## Example 1
-
 ```Example 1:
 
 Input: 
-Courses table:
-+---------+----------+
-| student | class    |
-+---------+----------+
-| A       | Math     |
-| B       | English  |
-| C       | Math     |
-| D       | Biology  |
-| E       | Math     |
-| F       | Computer |
-| G       | Math     |
-| H       | Math     |
-| I       | Math     |
-+---------+----------+
+Triangle table:
++----+----+----+
+| x  | y  | z  |
++----+----+----+
+| 13 | 15 | 30 |
+| 10 | 20 | 15 |
++----+----+----+
 Output: 
-+---------+
-| class   |
-+---------+
-| Math    |
-+---------+
-Explanation: 
-- Math has 6 students, so we include it.
-- English has 1 student, so we do not include it.
-- Biology has 1 student, so we do not include it.
-- Computer has 1 student, so we do not include it.
++----+----+----+----------+
+| x  | y  | z  | triangle |
++----+----+----+----------+
+| 13 | 15 | 30 | No       |
+| 10 | 20 | 15 | Yes      |
++----+----+----+----------+
 ```
 
 ## Code
 
 ```tsql
 select
-    c.class
+    x,
+    y,
+    z,
+    case
+        when x + y > z and x + z > y and y + z > x then 'Yes'
+        else 'No'
+        end [triangle]
 from
-    Courses c
-group by
-    c.class
-having count(1) >= 5
+    Triangle
 
 ```
 
 ## Complexity
 
 > **Time complexity**: O(n)  
-> **Space complexity**: O(n)
+> **Space complexity**: O(1)
