@@ -215,6 +215,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1789_Primary_Department_fo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_610_Triangle_Judgement", "_610_Triangle_Judgement\_610_Triangle_Judgement.csproj", "{27C60BC7-5613-4C3A-BF10-6FA4F7BCA431}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1071_Greatest_Common_Divisor_of_Strings", "_1071_Greatest_Common_Divisor_of_Strings\_1071_Greatest_Common_Divisor_of_Strings.csproj", "{B3648D7F-90C9-4C24-8C0E-0F2CB36F7466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -633,6 +635,10 @@ Global
 		{27C60BC7-5613-4C3A-BF10-6FA4F7BCA431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27C60BC7-5613-4C3A-BF10-6FA4F7BCA431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27C60BC7-5613-4C3A-BF10-6FA4F7BCA431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3648D7F-90C9-4C24-8C0E-0F2CB36F7466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3648D7F-90C9-4C24-8C0E-0F2CB36F7466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3648D7F-90C9-4C24-8C0E-0F2CB36F7466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3648D7F-90C9-4C24-8C0E-0F2CB36F7466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
