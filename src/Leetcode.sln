@@ -217,6 +217,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_610_Triangle_Judgement", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1071_Greatest_Common_Divisor_of_Strings", "_1071_Greatest_Common_Divisor_of_Strings\_1071_Greatest_Common_Divisor_of_Strings.csproj", "{B3648D7F-90C9-4C24-8C0E-0F2CB36F7466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1431_Kids_With_the_Greatest_Number_of_Candies", "_1431_Kids_With_the_Greatest_Number_of_Candies\_1431_Kids_With_the_Greatest_Number_of_Candies.csproj", "{57C63FF6-7BEB-4DDC-8730-922AA0AF7FF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -639,6 +641,10 @@ Global
 		{B3648D7F-90C9-4C24-8C0E-0F2CB36F7466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3648D7F-90C9-4C24-8C0E-0F2CB36F7466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3648D7F-90C9-4C24-8C0E-0F2CB36F7466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C63FF6-7BEB-4DDC-8730-922AA0AF7FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C63FF6-7BEB-4DDC-8730-922AA0AF7FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C63FF6-7BEB-4DDC-8730-922AA0AF7FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C63FF6-7BEB-4DDC-8730-922AA0AF7FF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
