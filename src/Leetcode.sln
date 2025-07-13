@@ -221,6 +221,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1431_Kids_With_the_Greates
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_605_Can_Place_Flowers", "_605_Can_Place_Flowers\_605_Can_Place_Flowers.csproj", "{0DBA1555-72FF-4EDB-9E59-1C52F103537C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_345_Reverse_Vowels_of_a_String", "_345_Reverse_Vowels_of_a_String\_345_Reverse_Vowels_of_a_String.csproj", "{0CF3AFA6-A7FB-4987-AB02-75837AC999E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -651,6 +653,10 @@ Global
 		{0DBA1555-72FF-4EDB-9E59-1C52F103537C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DBA1555-72FF-4EDB-9E59-1C52F103537C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DBA1555-72FF-4EDB-9E59-1C52F103537C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF3AFA6-A7FB-4987-AB02-75837AC999E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF3AFA6-A7FB-4987-AB02-75837AC999E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF3AFA6-A7FB-4987-AB02-75837AC999E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF3AFA6-A7FB-4987-AB02-75837AC999E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
