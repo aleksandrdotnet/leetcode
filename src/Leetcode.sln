@@ -227,6 +227,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_151_Reverse_Words_in_a_Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_238_Product_of_Array_Except_Self", "_238_Product_of_Array_Except_Self\_238_Product_of_Array_Except_Self.csproj", "{1A62AC36-47FD-47E6-8D30-759C5236F4CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_334_Increasing_Triplet_Subsequence", "_334_Increasing_Triplet_Subsequence\_334_Increasing_Triplet_Subsequence.csproj", "{E37E202E-67D0-48F2-8A44-893039ACA9C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -669,6 +671,10 @@ Global
 		{1A62AC36-47FD-47E6-8D30-759C5236F4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A62AC36-47FD-47E6-8D30-759C5236F4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A62AC36-47FD-47E6-8D30-759C5236F4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37E202E-67D0-48F2-8A44-893039ACA9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37E202E-67D0-48F2-8A44-893039ACA9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37E202E-67D0-48F2-8A44-893039ACA9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37E202E-67D0-48F2-8A44-893039ACA9C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
