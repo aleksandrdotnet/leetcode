@@ -7,14 +7,12 @@ public class Solution
         var max = candies[0];
 
         var result = new bool[candies.Length];
-        foreach(var c in candies)
+        foreach (var c in candies)
             max = Math.Max(max, c);
 
-        for(var i = 0; i < candies.Length; i++)
-        {
-            if(candies[i] + extraCandies >= max)
+        for (var i = 0; i < candies.Length; i++)
+            if (candies[i] + extraCandies >= max)
                 result[i] = true;
-        }
 
         return result;
     }

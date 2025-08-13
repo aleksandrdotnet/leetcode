@@ -12,7 +12,7 @@ public class Solution
         // GCD
         while (b > 0)
         {
-            int temp = b;
+            var temp = b;
             b = a % b;
             a = temp;
         }

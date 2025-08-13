@@ -14,10 +14,7 @@ public class Solution
                 continue;
 
             var j = i;
-            while (j > 0 && s[j - 1] != ' ')
-            {
-                j--;
-            }
+            while (j > 0 && s[j - 1] != ' ') j--;
 
             result.Append(s[j..(i + 1)]);
 

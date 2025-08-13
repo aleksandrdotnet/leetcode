@@ -11,6 +11,7 @@ Given an integer array nums, return true if there exists a triple of indices (i,
 ```
 
 ## Example 1
+
 ```
 Input: nums = [1,2,3,4,5]
 Output: true
@@ -18,6 +19,7 @@ Explanation: Any triplet where i < j < k is valid.
 ```
 
 ## Example 2
+
 ```
 Input: nums = [5,4,3,2,1]
 Output: false
@@ -25,19 +27,23 @@ Explanation: No triplet exists.
 ```
 
 ## Constraints
+
 ```
 1 <= nums.length <= 5 * 10^5
 -2^31 <= nums[i] <= 2^31 - 1
 ```
 
-## Follow up: 
+## Follow up:
+
 Could you implement a solution that runs in O(n) time complexity and O(1) space complexity?
 
 ## Code
+
 ```csharp
 
 ```
 
 ## Complexity
+
 > **Time complexity**: O()  
 > **Space complexity**: O()

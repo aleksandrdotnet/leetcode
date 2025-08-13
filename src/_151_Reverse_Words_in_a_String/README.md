@@ -17,12 +17,14 @@ Note that s may contain leading or trailing spaces or multiple spaces between tw
 ```
 
 ## Example 1
+
 ```
 ExaInput: s = "the sky is blue"
 Output: "blue is sky the"
 ```
 
 ## Example 2
+
 ```
 Input: s = "  hello world  "
 Output: "world hello"
@@ -30,6 +32,7 @@ Explanation: Your reversed string should not contain leading or trailing spaces.
 ```
 
 ## Constraints
+
 ```
 1 <= s.length <= 10^4
 s contains English letters (upper-case and lower-case), digits, and spaces ' '.
@@ -37,6 +40,7 @@ There is at least one word in s.
 ```
 
 ## Code
+
 ```csharp
 public string ReverseWords(string s)
 {
@@ -81,5 +85,6 @@ public string ReverseWords(string s)
 Follow-up: If the string data type is mutable in your language, can you solve it in-place with O(1) extra space?
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(n)

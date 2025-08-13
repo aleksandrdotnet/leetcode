@@ -13,6 +13,7 @@ The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both lower an
 ```
 
 ## Example 1
+
 ```
 Input: s = "IceCreAm"
 
@@ -24,6 +25,7 @@ The vowels in s are ['I', 'e', 'e', 'A']. On reversing the vowels, s becomes "Ac
 ```
 
 ## Example 2
+
 ```
 Input: s = "leetcode"
 
@@ -31,12 +33,14 @@ Output: "leotcede"
 ```
 
 ## Constraints
+
 ```
 1 <= s.length <= 3 * 10^5
 s consist of printable ASCII characters.
 ```
 
 ## Code
+
 ```csharp
 public string ReverseVowels(string s)
 {
@@ -69,5 +73,6 @@ public string ReverseVowels(string s)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(n)

@@ -13,24 +13,28 @@ Given two strings str1 and str2, return the largest string x such that x divides
 ```
 
 ## Example 1
+
 ```
 Input: str1 = "ABCABC", str2 = "ABC"
 Output: "ABC"
 ```
 
 ## Example 2
+
 ```
 Input: str1 = "ABABAB", str2 = "ABAB"
 Output: "AB"
 ```
 
 ## Constraints
+
 ```
 1 <= str1.length, str2.length <= 1000
 str1 and str2 consist of English uppercase letters.
 ```
 
 ## Code
+
 ```csharp
 public string GcdOfStrings(string str1, string str2)
 {
@@ -52,5 +56,6 @@ public string GcdOfStrings(string str1, string str2)
 ```
 
 ## Complexity
+
 > **Time complexity**: O()  
 > **Space complexity**: O()

@@ -14,6 +14,7 @@ Note that multiple kids can have the greatest number of candies.
 ```
 
 ## Example 1
+
 ```
 Input: candies = [2,3,5,1,3], extraCandies = 3
 Output: [true,true,true,false,true] 
@@ -26,6 +27,7 @@ Explanation: If you give all extraCandies to:
 ```
 
 ## Example 2
+
 ```
 Input: candies = [4,2,1,1,2], extraCandies = 1
 Output: [true,false,false,false,false] 
@@ -34,6 +36,7 @@ Kid 1 will always have the greatest number of candies, even if a different kid i
 ```
 
 ## Constraints
+
 ```
 n == candies.length
 2 <= n <= 100
@@ -42,6 +45,7 @@ n == candies.length
 ```
 
 ## Code
+
 ```csharp
 public IList<bool> KidsWithCandies(int[] candies, int extraCandies)
 {
@@ -62,5 +66,6 @@ public IList<bool> KidsWithCandies(int[] candies, int extraCandies)
 ```
 
 ## Complexity
+
 > **Time complexity**: O(n)  
 > **Space complexity**: O(n)

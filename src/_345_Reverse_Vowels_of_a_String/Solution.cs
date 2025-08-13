@@ -10,9 +10,8 @@ public class Solution
         var i = 0;
         var j = s.Length - 1;
         var result = new StringBuilder(s);
-        
+
         while (i < j)
-        {
             if (!vowels.Contains(s[i]))
             {
                 i++;
@@ -28,8 +27,7 @@ public class Solution
                 i++;
                 j--;
             }
-        }
-        
+
         return result.ToString();
     }
 }
