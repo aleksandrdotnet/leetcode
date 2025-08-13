@@ -231,6 +231,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_334_Increasing_Triplet_Sub
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_11_Container_With_Most_Water", "_11_Container_With_Most_Water\_11_Container_With_Most_Water.csproj", "{5540A644-B1DA-4405-9321-00DAE4747376}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_392_Is_Subsequence", "_392_Is_Subsequence\_392_Is_Subsequence.csproj", "{6113E8FE-F941-4B08-80DF-B97934DA5CDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -681,6 +683,10 @@ Global
 		{5540A644-B1DA-4405-9321-00DAE4747376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5540A644-B1DA-4405-9321-00DAE4747376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5540A644-B1DA-4405-9321-00DAE4747376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6113E8FE-F941-4B08-80DF-B97934DA5CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6113E8FE-F941-4B08-80DF-B97934DA5CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6113E8FE-F941-4B08-80DF-B97934DA5CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6113E8FE-F941-4B08-80DF-B97934DA5CDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}

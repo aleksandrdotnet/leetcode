@@ -40,10 +40,30 @@ Could you implement a solution that runs in O(n) time complexity and O(1) space 
 ## Code
 
 ```csharp
+public bool IncreasingTriplet(int[] nums)
+{
+    if (nums.Length <= 2)
+        return false;
 
+    var first = int.MaxValue;
+    var mid = int.MaxValue;
+
+    for (var i = 0; i < nums.Length; i++)
+    {
+        if (mid < nums[i])
+            return true;
+
+        if (first > nums[i])
+            first = nums[i];
+        else
+            mid = nums[i];
+    }
+
+    return false;
+}
 ```
 
 ## Complexity
 
-> **Time complexity**: O()  
-> **Space complexity**: O()
+> **Time complexity**: O(n)  
+> **Space complexity**: O(n)
