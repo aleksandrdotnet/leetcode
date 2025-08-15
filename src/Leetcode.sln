@@ -233,6 +233,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_11_Container_With_Most_Wat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_392_Is_Subsequence", "_392_Is_Subsequence\_392_Is_Subsequence.csproj", "{6113E8FE-F941-4B08-80DF-B97934DA5CDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1679_Max_Number_of_K-Sum_Pairs", "_1679_Max_Number_of_K-Sum_Pairs\_1679_Max_Number_of_K-Sum_Pairs.csproj", "{C7424622-0509-47D8-AA91-87BE42D2A4D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -687,6 +689,10 @@ Global
 		{6113E8FE-F941-4B08-80DF-B97934DA5CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6113E8FE-F941-4B08-80DF-B97934DA5CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6113E8FE-F941-4B08-80DF-B97934DA5CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7424622-0509-47D8-AA91-87BE42D2A4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7424622-0509-47D8-AA91-87BE42D2A4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7424622-0509-47D8-AA91-87BE42D2A4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7424622-0509-47D8-AA91-87BE42D2A4D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77B1D23-DFF0-43C7-BF56-A854DCBF5BE1} = {4F9193B9-1D84-440A-A048-B21ECB366C97}
